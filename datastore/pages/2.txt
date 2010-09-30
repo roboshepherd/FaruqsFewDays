@@ -1,2 +1,2 @@
 <h3>CV</h3>
-<strong> Download my&nbsp; CV in PDF format from <a href="/razor/datastore/media/file/CV_SarkerMOF.pdf"><span style="text-decoration: underline;">here</span></a>.</strong>
+<p><strong> Download my&amp;nbsp; CV in PDF format from <a href="/datastore/media/file/CV_SarkerMOF.pdf"><span style="text-decoration: underline;">here</span></a>.</strong></p>
