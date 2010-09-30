@@ -1,0 +1,315 @@
+/*Inspire by Payal Dhar (http://writeside.net), 2006
+You are free to use and modify this design,
+but I will be most grateful if you kept the credit links.*/
+
+body {
+	background: #CCCCCC;
+	font: 70%/1.5em Verdana, Tahoma, arial, sans-serif;
+	color: #333; 
+	/*text-align: center; */
+}
+
+
+#wrap{
+width:750px;
+margin:0 auto;
+border:1px #D4E6D4 solid;
+background: #fff;
+}
+
+/*
+#wrapp{
+	width: 820px;
+	background: #CCC url(../images/content.jpg) repeat-y center top;
+	margin: 0 auto;
+	text-align: left;
+}*/
+
+/* Header styles*/
+#header{
+margin:5px -25px;
+height:180px;
+background:#83BB83 url(top.jpg) top no-repeat;
+}
+
+#header_middle{
+	background: url(inspire2.jpg) no-repeat;
+	height: 180px;
+	margin-left: 25px;
+}
+
+#header_bottom{
+background:url(bottom.jpg) bottom no-repeat;
+}
+
+.site_header{
+position:absolute;
+margin-left:200px;
+margin-top:60px;
+font-size:3.5em;
+color:#000;
+}
+
+.subheader{
+position:absolute;
+margin-left:245px;
+margin-top:105px;
+font-size:1.5em;
+color:#EBFFEB;
+}
+
+.main{
+text-align:left;
+margin-left:50px;
+}
+
+/*Top navigation styles*/
+#main_nav{
+position:relative;
+top:5px;
+right:5px;
+text-align:right;
+padding:4px;
+}
+
+#main_nav a{
+color:#808080;
+font-size:1.1em;
+text-decoration:none;
+padding-right:20px;
+background:url(icon.jpg) right no-repeat;
+height: 25px;
+}
+
+#main_nav a.last{
+text-decoration:none;
+padding-right:5px;
+background:none;
+}
+
+#main_nav a:hover{
+color:#83BB83;
+}
+
+#main_nav ul{
+list-style: none;
+line-height: normal;
+}
+
+#main_nav li{
+display: inline;
+}
+
+/* Left navigation column styles*/
+#leftbox{
+position:relative;
+top:10px;
+float:left;
+width:170px;
+margin-left:5px;
+padding:5px;
+}
+
+#leftbox p{
+padding-left:4px;
+}
+
+#leftbox h1{
+color:#83BB83;
+font-size:1.35em;
+padding-left:4px;
+}
+
+#leftbox h2{
+color:#83BB83;
+font-size:1em;
+padding-left:4px;
+}
+
+#leftbox ul{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#leftbox ul li{
+margin:0;
+padding:0 0 0 5px;
+}
+
+#leftbox ul li a{
+display:block;
+width:90%;
+line-height:1.5em;
+background:#FBFFFB;
+text-decoration:none;
+padding:5px;
+color:#808080;
+border-bottom:1px solid #83BB83;
+}
+
+#leftbox ul li a:hover{
+background:#EBFFEB url(link-hover.jpg) right no-repeat;
+border-bottom:1px solid #5A885A;
+}
+
+#leftbox ul li a.now{
+font-weight:600;
+background:#EBFFEB url(link-active.jpg) right no-repeat;
+}
+
+/* Main body text styles*/
+#text{
+position:relative;
+top:10px;
+float:right;
+width:550px;
+}
+
+#text p{
+padding:2px 2px 7px;
+}
+
+#text ul{
+list-style:url(bullet.jpg);
+line-height:1.15em;
+}
+
+#text ol{
+list-style:lower-roman;
+line-height:1.15em;
+}
+
+#text h1{
+font-size:1.45em;
+padding:3px;
+margin:15px 5px 5px 2px;
+border-top:2px solid #EBFFEB;
+border-left:2px solid #EBFFEB;
+border-right:2px solid #EBFFEB;
+}
+
+#text h2{
+font-size:1.1em;
+padding:2px 2px 2px 5px;
+}
+
+#text h3{
+font-size:0.9em;
+padding:2px 2px 2px 5px;
+}
+
+#text blockquote{
+background:#FBFFFB url(block.jpg) top left no-repeat;
+border-top:1px solid #EBFFEB;
+border-bottom:1px solid #EBFFEB;
+border-right:1px solid #EBFFEB;
+border-left:4px solid #EBFFEB;
+padding:4px 4px 4px 25px;
+margin:2px 10px;
+text-align:justify;
+}
+
+#text a{
+color:#777;
+border-bottom:1px dotted #777;
+text-decoration:none;
+}
+
+#text a:hover{
+color:#000;
+border-bottom:1px solid #000;
+}
+
+#text img{
+border:1px solid #83BB83;
+margin:2px;
+padding:4px;
+float:right;
+}
+
+/*Table styles (I'm not good at tables - and very likely this will need some tweaking before use)*/
+table{
+padding:10px;
+caption-side:top;
+border-collapse:collapse;
+text-align:center;
+border-bottom:1px solid #808080;
+}
+
+table th{
+border-top:1px solid #808080;
+border-bottom:1px solid #808080;
+background:#FBFFFB;
+padding:10px;
+width:75px;
+}
+
+table td{
+background:#FBFFFB;
+padding:10px;
+width:75px;
+}
+
+/*If you want a table caption, uncomment this and add a caption in the HTML using the tags < caption > < /caption >, with no spaces*/
+caption{
+font-size:1.1em;
+border:0;
+}
+
+/* Form styles */
+input{
+border:1px solid #83BB83;
+background:#FBFFFB;
+color:#808080;
+padding:4px;
+margin:0 0 4px 4px;
+}
+
+input:hover{
+border:1px solid #5A885A;
+background:#EBFFEB;
+}
+
+input:focus{
+border:1px solid #5A885A;
+background:#EBFFEB;
+}
+
+textarea{
+border:1px solid #83BB83;
+background:#FBFFFB;
+padding:4px;
+margin:0 0 4px 4px;
+}
+
+textarea:hover{
+border:1px solid #5A885A;
+background:#EBFFEB;
+}
+
+textarea:focus{
+border:1px solid #5A885A;
+background:#EBFFEB;
+}
+
+/*Footer styles*/
+#footer {
+color:#808080;
+padding:5px;
+clear: both;
+background:#EBFFEB;
+font-size:0.85em;
+text-align:center;
+}
+
+#footer a {
+color:#808080;
+border-bottom:1px dotted #000;
+text-decoration:none;
+}
+
+#footer a:hover {
+border-bottom:1px solid #808080;
+text-decoration:none;
+}

@@ -1,0 +1,1016 @@
+    /*///////////////////////////////////////////////////////*/
+    /* razorCMS                                              */
+    /* admin/theme/default_css.css                           */
+    /* GPLv3                                                 */
+    /* smiffy6969                                            */
+    /* www.razorcms.co.uk                                    */
+    /* www.mis-limited.com                                   */
+    /* 03/2008                                               */
+    /* ----------------------------------------------------- */
+    /* V0.1  -  03/2008  -  Version 0.1 first release        */
+    /*                                                       */
+    /*                      Theme created by smiffy6969      */
+    /* ----------------------------------------------------- */
+    /* V0.2  -  06/2008  -  This file contains changes for   */
+    /*                      up issue to V0.2BETA and RC      */
+    /* ----------------------------------------------------- */
+    /* V0.2  -  08/2008  -  RC2 Bug fix release              */
+    /*                      No changes to this file          */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  11/2008  -  BETA1 Bug fix and new features   */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  12/2008  -  RC Bug fix and code walk         */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  02/2009  -  RC2 Bug fix, code walk and some  */
+    /*                      movement of functions.           */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  06/2009  -  ALPHA Security, Bug fix and new  */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  07/2009  -  BETA Bug fix and new             */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  08/2009  -  BETA2 Bug fix and new            */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  09/2009  -  RC Bug fix                       */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  10/2009  -  Stable - Bug fix                 */
+    /* ----------------------------------------------------- */
+    /*///////////////////////////////////////////////////////*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 800px;
+    background-color: #3b3b3b;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a img{
+    border: none;
+}
+
+h1 {
+    margin: 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 105%;
+    color: #444444;
+}
+
+h2{
+    margin: 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    color: #444444;
+    clear: left;
+}
+
+#content h1 {
+    color: #444444;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 130%;
+}
+
+#content h2 {
+    color: #666666;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 120%;
+}
+
+#content h3 {
+    padding-left: 3px;
+    color: #888888;
+    font-size: 110%;
+}
+
+.linkcats-div h3 {
+    margin: 0px;
+    padding-left: 3px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;   
+    color: #555555;
+    font-size: 110%;
+    text-align: center;
+    width: 50%;
+    display: inline;
+}
+
+p {
+    margin: 10px 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    color: #444444;
+}
+
+a, a:visited, a:active {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3d8bbf;
+    text-decoration: none;
+    border: none;
+}
+
+a:hover {
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+    border: none;
+}
+
+.viewsitelink {
+    margin: 3px 3px 0px 0px;
+    padding: 0px;
+    height: 16px;
+    text-align: right;
+}
+
+#brace {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#pageframe {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    background-image: url(images/edge.jpg);
+    background-repeat: repeat-y;
+    background-position: top left;
+    float: left;
+}
+
+#pageframer {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    background-image: url(images/edge.jpg);
+    background-repeat: repeat-y;
+    background-position: top right;
+    float: left;
+}
+
+#header {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    height: 120px;
+    width: 100%;
+    background-image: url(images/headermid.jpg);
+    background-repeat: repeat-x;
+    background-position: top left;
+    float: left;
+}
+
+#headermid {
+    margin: 0px;
+    padding: 0px;
+    height: 120px;
+    width: 100%;
+    float: left;
+}
+
+#headerr {
+    margin: 0px;
+    padding: 0px;
+    height: 120px;
+    width: 100%;
+    float: left;
+}
+
+/* login module */
+
+#bracelogin {
+    width: 450px;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#pageframelogin {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 450px;
+    float: left;
+}
+
+#pageframerlogin {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 450px;
+    float: left;
+}
+
+#headerlogin {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    height: 80px;
+    width: 450px;
+    float: left;
+}
+
+#headermidlogin {
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 450px;
+    float: left;
+}
+
+#headerrlogin {
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 450px;
+    float: left;
+}
+/* end login module */
+
+#headerr h1{
+    margin: 0px;
+    padding: 20px 0px 0px 30px;
+    text-align: left;
+    font-size: 170%;
+    font-weight: normal;
+    color: #b6d7ee;
+}
+
+#headerr h2 {
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+    color: #999999;
+    height: 0.5em;
+    font-size: 100%;
+    text-align: left;
+    font-weight: normal;
+}
+
+#headerr h3 {
+    margin: 0px;
+    padding: 15px 0px 0px 30px;
+    color: #999999;
+    height: 0.5em;
+    font-size: 80%;
+    text-align: left;
+    font-weight: normal;
+}
+
+#headerrlogin h1{
+    margin: 0px;
+    padding: 20px 0px 0px 60px;
+    text-align: left;
+    font-size: 170%;
+    font-weight: normal;
+    color: #b6d7ee;
+}
+
+#headerrlogin h2 {
+    margin: 0px;
+    padding: 0px 0px 0px 60px;
+    color: #999999;
+    height: 0.5em;
+    font-size: 100%;
+    text-align: left;
+    font-weight: normal;
+}
+
+#headerrlogin h3 {
+    margin: 0px;
+    padding: 15px 0px 0px 60px;
+    color: #999999;
+    height: 0.5em;
+    font-size: 80%;
+    text-align: left;
+    font-weight: normal;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+/* Topnav css */
+/* ######################################################### */
+/* ######################################################### */
+
+#topnav {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 36px;
+    background-color:  #3b3b3b;
+    text-align: left;
+    float: left;
+}
+
+#topnav ul {
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    list-style: none;
+}
+
+#topnav ul li {
+    margin: 0px;
+    padding: 0px 0px;
+    height: 36px;
+    width: 60px;
+    float: left;
+}
+
+#topnav ul li a {
+    margin: 0px;
+    padding: 0px 0px 0px 14px;
+    height: 36px;
+    width: 60px;
+    float: left;
+}
+
+#topnav ul li a:hover {
+}
+
+
+#topnav ul li a.active {
+    background-image: url(images/tab.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#topnav ul li a.active:hover {
+    background-image: url(images/tab.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+/* ######################################################### */
+/* ######################################################### */
+
+#midbrace {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 1px;
+}
+
+#midbox {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    min-height:200px;
+    height:auto !important;
+    height:200px;
+    width: 100%;
+    background-color: #eeeeee;
+    float: left;
+}
+
+/* login module */
+
+#midboxlogin {
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 30px 0px;
+    min-height:165px;
+    height:auto !important;
+    height:165px;
+    width: 448px;
+    float: left;
+}
+
+/* end login module */
+
+/* ######################################################### */
+/* ######################################################### */
+/* Navbar css */
+/* ######################################################### */
+/* ######################################################### */
+
+#leftbar {
+    margin: 20px 0px 0px 0px;
+    padding: 0px 5px 0px 10px;
+    width: 17%;
+    font-size: 85%;
+    text-align:left;
+    float:left;
+}
+
+#leftbar p {
+    margin: 10px 10px 10px 0px;
+    padding: 0px;
+}
+
+#leftbar h1, #leftbar h2 {
+    margin: 1px 0px 1px 0px;
+    padding: 4px;
+    color: #888888;
+    width: 160px;
+}
+
+#leftbar #leftnav ul {
+    margin: 0px;
+    padding: 4px;
+    width: 160px;
+    list-style-type: none;
+}
+
+#leftbar #leftnav ul li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#leftbar #leftnav ul li a {
+    margin: 0px;
+    padding: 0px;
+    color: #1791e4;
+    text-decoration: none;
+}
+
+#leftbar #leftnav ul li a:hover{
+    margin: 0px;
+    padding: 0px;
+    color: #60bfff;
+}
+
+#leftbar #leftnav ul li a.active, #leftbar #leftnav ul li a.active:hover{
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+}
+
+#leftbar #leftnav ul li ul {
+    padding-left: 10px;
+}
+
+#leftbar #leftnav ul li ul li ul{
+    padding-left: 10px;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+
+
+#content {
+    margin: 10px 0px 10px 0px;
+    padding: 0px 5px 0px 0px;
+    height: auto;
+    width: 80%;
+    border: none;
+    text-align: center;
+    float: left;
+}
+
+#content h1 img {
+    display: none;
+}
+
+/* login module */
+
+#contentlogin {
+    margin: 0px;
+    padding: 1px 5px 0px 5px;
+    height: auto;
+    width: 438px;
+    border: none;
+    text-align: center;
+    float: left;
+}
+
+/* end login module */
+
+div.contentwh {
+    margin: 4px 0px 4px 0px;
+    padding: 2px;
+    height: auto;
+    width: auto;
+    text-align: left;
+}
+
+div.versioncheck {
+    margin: 4px 0px 4px 0px;
+    padding: 2px;
+    height: auto;
+    text-align: left;
+    border: 1px solid #bbbbbb;
+    background-color: #f6f6f6;
+}
+
+div.systemmessage {
+    margin: 4px 0px 4px 0px;
+    padding: 2px;
+    height: auto;
+    width: auto;
+    text-align: left;
+    border: 1px solid #bbbbbb;
+    background-color: #f6f6f6;
+}
+
+#content ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: circle;
+}
+
+#content li {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    color: #444444;
+}
+
+#createPage {
+    margin: 0px;
+    padding: 3px;
+    border: 1px solid #888888;
+    background-color: #d8ffd8;
+}
+
+form#loginform {
+    margin: 2px 60px 4px 60px;
+    padding: 4px 0px 4px 0px;
+    width: auto;
+    border: 1px solid #bbbbbb;
+    background-color: #3b3b3b;
+}
+
+form#loginform p {
+    color: #eeeeee;
+}
+
+form#loginform input {
+    border: 1px solid #bbbbbb;
+    background-color: #3b3b3b;
+    color: #eeeeee;
+}
+
+#belownav {
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+}
+
+input.w300 {
+    width: 300px;
+}
+
+.normal {
+    margin: 4px 0px 4px 0px;
+    padding: 0px;
+    border: 1px solid #bbbbbb;
+    background-color: #f6f6f6;
+    text-align: left;
+}
+
+.safe {
+    margin: 4px 0px 4px 0px;
+    padding: 0px;
+    color: #00be00;
+    border: 1px solid #00be00;
+    background-color: #ade0ad;
+    text-align: left;
+}
+
+.unsafe {
+    margin: 4px 0px 4px 0px;
+    padding: 0px;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    background-color: #ffb2b2;
+    text-align: left;
+}
+
+.msgbox, .yellowbox {
+    margin: 4px 0px 4px 0px;
+    padding:15px;
+    border:1px solid #D5D500;
+    background:#ffffcc;
+}
+
+.redbox {
+    margin: 4px 0px 4px 0px;
+    padding:15px;
+    background:#FFEAEA;
+    border:1px solid #D50000;
+}
+
+.greenbox {
+    margin: 4px 0px 4px 0px;
+    padding:15px;
+    background:#E8FFE8;
+    border:1px solid #009900;
+}
+
+.msgbox ul {
+    list-style:inside;
+    margin:5px;
+    margin-left:10px;
+}
+
+table {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    background-color: #eeeeee;
+}
+
+th {
+    background-color: #dddddd;
+    color: #888888;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+td {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    color: #444444;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.tableTitle {
+    background-color: #dddddd;
+}
+
+.tableFooter {
+    background-color: #dddddd;
+    height: 10px;
+}
+
+.tableCenter {
+    text-align: center;
+}
+
+.tableEditBox {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#editbox {
+    width: 99%;
+    height: 300px;
+    background-color: #ffffff;
+}
+
+.five {
+    width: 5%;
+}
+
+.ten {
+    width: 10%;
+}
+
+.auto {
+    width: auto;
+}
+
+.twenty {
+    width: 20%;
+}
+
+.twentyFive {
+    width: 25%
+}
+
+/* ///////////// */
+/* table colours */
+/* ///////////// */
+
+.tableLinkItems {
+    background-color: #fffed8;
+}
+
+.tableLinkItems tr:hover {
+    background-color: #fffda6;
+}
+
+/* ///////////// */
+
+.tableNewCats, .tableCats {
+    background-color: #ffe9d8;
+}
+
+.tableCats tr:hover {
+    background-color: #ffcba3;
+}
+
+/* ///////////// */
+
+.tableInfoAllocation {
+    background-color: #ffe0f7;
+}
+
+.tableInfoAllocation tr:hover {
+    background-color: #ffb5ec;
+}
+
+/* ///////////// */
+
+.tableNewItem, .tableEditItem {
+    background-color: #e8ffe8;
+}
+
+/* ///////////// */
+
+.tableViewFiles {
+    background-color: #d3deff;
+}
+
+.tableViewFiles tr:hover {
+    background-color: #adc2ff;
+}
+
+/* ///////////// */
+
+.tableViewSettings {
+    background-color: #ffd8d8;
+}
+
+/* ///////////// */
+
+.tableViewBlades {
+    background-color: #dcfff6;
+}
+
+.tableViewBlades tr:hover {
+    background-color: #8cffe1;
+}
+
+/* ///////////// */
+
+.tableViewBackup {
+    background-color: #c0efc0;
+}
+
+.tableViewBackup tr:hover {
+    background-color: #7cef7c;
+}
+
+/* ///////////// */
+/* //// End //// */
+/* ///////////// */
+
+form {
+    width: auto;
+}
+
+#button {
+    border: 1px solid #ff7200;
+    background-color: #ffc18e;
+    width: auto;
+    text-align: center;
+}
+
+#linkitems {
+    width: 99%;
+    display: block;
+    float: left;
+}
+
+.editPageTable {
+    width: 33%;
+    margin-bottom: 10px;
+    margin-right: 0.2%;
+    border: 1px solid #888888;
+    background-color: #fffed8;
+    top: 0px;
+    display: block;
+    float: left;
+}
+
+.redtext {
+    color: #ff0000;
+}
+
+.greentext {
+    color: #008000;
+}
+
+.bluetext {
+    color: #0000ff;
+}
+
+.split50 {
+    width: 49%;
+    border: 1px solid #666666;
+    background-color: #ffffff;
+    margin-left: 1px;
+    float: left;
+}
+
+.updown {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #51b900;
+    border: none;
+}
+
+.updown:hover {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #64e500;
+    border: none;
+}
+
+.edit {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #0077e5;
+    border: none;
+}
+
+.edit:hover {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #5ca3e5;
+    border: none;
+}
+
+.delete {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #e56868;
+    border: none;
+}
+
+.delete:hover {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #e58f8f;
+    border: none;
+}
+
+.ftp {
+    margin: 0px;
+    padding: 0px;
+    width: 16px;
+    height: 16px;
+    display: inline;
+    border: none;
+}
+
+.activate {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #51b900;
+    border: none;
+}
+
+.activate:hover {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #64e500;
+    border: none;
+}
+
+.deactivate {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #e56868;
+    border: none;
+}
+
+.deactivate:hover {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    background-color: #e58f8f;
+    border: none;
+}
+
+.tdgreyd {
+    background-color: #cccccc;
+    border-right: 1px solid #bbbbbb;
+}
+
+.tdgreyl {
+    background-color: #dddddd;
+    border-right: 1px solid #bbbbbb;
+}
+
+.noborder {
+    border: none;
+}
+
+iframe {
+    padding: 1px;
+    border: 1px solid #bbbbbb;
+    background-color: #f6f6f6;
+}
+
+.hidden {
+    display: none;
+}
+
+/* FIX FOR IE BUG WITH SINGLE TEXT FIELD INPUT FORMS */
+/* IF YOU REMOVE THIS, ENTER WILL NOT SEND THESE TYPES */
+/* OF FORMS, THIS IS A KNOWN IE BUG */
+.IEbugFix {
+    display: none;
+}
+/* END OF BUG FIX */
+
+/* ######################################################### */
+/* ######################################################### */
+/* Footer css */
+/* ######################################################### */
+/* ######################################################### */
+
+#footerl {
+    margin: 0px;
+    padding: 0px;
+    height: 78px;
+    width: 100%;
+    background-color: #3b3b3b;
+    display: block;
+    float: left;
+}
+
+#footer {
+    margin: 0px;
+    padding: 0px;
+    height: 78px;
+    width: 100%;
+    background-color: #3b3b3b;
+    display: block;
+    float: left;
+}
+
+#footerr {
+    margin: 0px;
+    padding: 0px;
+    height: 78px;
+    width: 100%;
+    background-color: #3b3b3b;
+    display: block;
+    float: left;
+}
+
+#footnav {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-image: url(images/footerblade.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 78px;
+    text-align: center;
+    display: block;
+}
+
+#footerLeft {
+    padding-top: 26px;
+    width: 50%;
+    height: 50px;
+    text-align: right;
+    float: left;
+    display: block;
+}
+
+#footerRight {
+    padding-top: 26px;
+    width: 50%;
+    height: 50px;
+    text-align: left;
+    float: right;
+    display: block;
+}
+
+#footerLeft a, #footerLeft a:active, #footerLeft a:visited {
+    margin: 0px;
+    padding: 0px 36px 0px 0px;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+#footerRight a, #footerRight a:active, #footerRight a:visited {
+    margin: 0px;
+    padding: 0px 0px 0px 36px;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+#footerLeft a:hover, #footerRight a:hover{
+    color: #ff0000;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+

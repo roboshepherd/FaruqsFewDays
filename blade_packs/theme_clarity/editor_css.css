@@ -1,0 +1,76 @@
+    /*///////////////////////////////////////////////////////*/
+    /* razorCMS                                              */
+    /* editor_css.css                                        */
+    /* GPLv3                                                 */
+    /* smiffy6969                                            */
+    /* www.razorcms.co.uk                                    */
+    /* www.burningfist.co.uk                                 */
+    /* 03/2008                                               */
+    /* ----------------------------------------------------- */
+    /* v0.2  -  08/2008  -  New addition of editor css file  */
+    /* ----------------------------------------------------- */
+    /*///////////////////////////////////////////////////////*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f8f8f8;
+}
+
+
+h1 {
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #555555;
+}
+
+h2 {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #555555;
+}
+
+p {
+    margin: 0px 3px 10px 3px;
+    padding: 0px;
+    color:  #777777;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+a, a:visited, a:active {
+    margin: 0px 4px 0px 4px;
+    padding: 0px;
+    font-size: 12px;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+}
+
+a:hover {
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+}
+
+
+ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: circle;
+}
+
+li {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-size: 12px;
+    color: #444444;
+}

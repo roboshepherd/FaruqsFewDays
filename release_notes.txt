@@ -1,0 +1,145 @@
+    ///////////////////////////////////////////////////////////
+    // razorCMS                                              //
+    // release_notes.txt                                     //
+    // GPLv3                                                 //
+    // smiffy6969                                            //
+    // www.razorcms.co.uk                                    //
+    // www.mis-limited.com                                   //
+    // 03/2008                                               //
+    // ----------------------------------------------------- //
+    // V0.1  -  03/2008  -  Version 0.1 first release        //
+    //                                                       //
+    //                      Some parts loosely based on      //
+    //                      nanoCMS V0.3 - with thanks to    //
+    //                      Kalyan Chakravarthy              //
+    // ----------------------------------------------------- //
+    // V0.2  -  06/2008  -  New features + bug fix resulting //
+    //                      in up issue to V0.2BETA          //
+    //                                                       //
+    //                      Bug fixes for issue to V0.2RC    //
+    // ----------------------------------------------------- //
+    // V0.2  -  08/2008  -  RC2 Bug fix release              //
+    // ----------------------------------------------------- //
+    // V0.3  -  11/2008  -  BETA1 Bug fix and new features   //
+    // ----------------------------------------------------- //
+    // V0.3  -  11/2008  -  BETA2 Bug fix and new features   //
+    // ----------------------------------------------------- //
+    // V0.3  -  12/2008  -  RC Bug fix and code walk         //
+    // ----------------------------------------------------- //
+    // V0.3  -  02/2009  -  RC2 Bug fix, code walk and some  //
+    //                      movement of functions.           //
+    // ----------------------------------------------------- //
+    // V1.0  -  06/2009  -  ALPHA Security, Bug fix and new  //
+    //                      functionality                    //
+    // ----------------------------------------------------- //
+    // V1.0  -  07/2009  -  BETA Bug fix and new             //
+    //                      functionality                    //
+    // ----------------------------------------------------- //
+    // V1.0  -  08/2009  -  BETA2 Bug fix and new            //
+    //                      functionality                    //
+    // ----------------------------------------------------- //
+    // V1.0  -  09/2009  -  RC Bug fix                       //
+    // ----------------------------------------------------- //
+    // V1.0  -  10/2009  -  Stable - Bug fix                 //
+    // ----------------------------------------------------- //
+    // V1.1  -  06/2010  -  Stable - Bug fix + Security fix  //
+    // ----------------------------------------------------- //
+    ///////////////////////////////////////////////////////////
+
+    // razorCMS v1.1 Stable Release notes /////////////////////
+
+    Below is the full list of files changed from razorCMS core
+    v1.0 stable, to razorCMS core v1.1 stable.
+
+    ///////////////////////////////////////////////////////////
+
+    // Changes ////////////////////////////////////////////////
+
+    1) Up-issued project to v1.1 stable
+    2) Made changes to stop notifices showing titghtening up code
+    3) Fixed bug when not using an editor that converts special chars
+    4) Added security fix for script embedding in content over XSS
+
+    ///////////////////////////////////////////////////////////
+
+    // New Files //////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////
+
+    // Removed files //////////////////////////////////////////
+
+    datastore/razor_data.txt~
+
+    ///////////////////////////////////////////////////////////
+
+    // Files Altered - core v0.1RC ////////////////////////////
+
+    install.php
+    index.php
+    core/public_config.php
+    core/public_func.php
+    admin/lib/unzip.lib.php
+    admin/theme/default_admin_xhtml.php
+    admin/core/admin_func.php
+        
+    ///////////////////////////////////////////////////////////
+
+    // Detailed changes of files listed below /////////////////
+    
+    install.php
+        Changes to stop notices popping up for things like variables not registered
+        and depricated functions
+
+    index.php
+        Changes to stop notices popping up for things like variables not registered
+        and depricated functions
+    
+    core/public_config.php
+        Up-issued project to v1.0 stable, change
+        $RAZOR['razor_current_ver'] = 'core v1.0 Stable';
+        to this
+        $RAZOR['razor_current_ver'] = 'core v1.1 Stable';
+
+    core/public_func.php
+        Changes to stop notices popping up for things like variables not registered
+        and depricated functions
+
+        Fixed error on page not found, defaults to 404, added sockets too so people can 
+        overide the header and content output by the error with blade pack
+
+    admin/lib/unzip.lib.php
+        Changes to stop notices popping up for things like variables not registered
+        and depricated functions
+
+    admin/theme/default_admin_xhtml.php
+        Changes to stop notices popping up for things like variables not registered
+        and depricated functions  
+
+    admin/core/admin_func.php
+        Changes to stop notices popping up for things like variables not registered
+        and depricated functions  
+
+        Added in fix in two places to stop the auto convert of html special chars
+        when adding new content and editing content when not using an editor
+
+        Added in fix for XSS attacks using random signatures for forms to check identity
+        and used this in several places
+        
+    ///////////////////////////////////////////////////////////
+
+    // List of sockets added //////////////////////////////////
+
+    // use for changing default 404 error output, without a custom page//
+    BsocketB('error-page-not-found', array( &$errorOutput ));
+
+    // use to alter the custom error page from 404-error-page to something else //
+    BsocketB('404-error-page', array( &$slab ));
+
+    // use to alter the header 404 output to instruct recipient page was an error //
+    BsocketB('header-error', array( &$headerError ));
+
+    ///////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////
+    //                       END OF LOG                      //
+    ///////////////////////////////////////////////////////////

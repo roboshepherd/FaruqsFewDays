@@ -1,0 +1,146 @@
+body {
+	font: 12px  "Trebuchet MS", Verdana, sans-serif;
+	color: #666666;
+	background: #FFFFFF;
+}
+* {padding:0; margin:0;}
+.clear {clear:both;}
+#wrap {background:url(headerbg.jpg) no-repeat; width:783px; margin:auto; border-top: solid 8px #efefef}
+#header {height:128px;}
+#content {margin: 30px 0px 0px 0px; padding:0 38px 25px 170px; position: none;}
+#midbox {margin: 0px 0px 0px 0px; padding:0px 0px 0px 0px; float: left; position: relative;}
+#footer  {background:url(footerbg.jpg) bottom no-repeat; padding-bottom:25px;}
+#leftbar {margin: 0px; padding: 5px 5px 0px 32px; display: block; width: 130px; position: absolute; top: 30px; left: 0px;}
+#leftbar p {margin: 10px 10px 10px 0px; padding: 0px;}
+#leftbar h1, #leftbar h2 {margin: 10px 10px 10px 0px; padding: 0px;}
+#leftbar #leftnav ul {margin: 0px; padding: 0px; list-style-type: none; }
+#leftbar #leftnav ul li {margin: 0px; padding: 0px; width: 130px; border-bottom:dashed 1px #CCCCCC;}
+#leftbar #leftnav ul li a {margin: 0px; padding: 0px; font-size: 90%; color:#006600; text-decoration: none; }
+#leftbar #leftnav ul li a:hover {margin: 0px; padding: 0px; background:#efefef; color:#000;}
+
+a {color:#006600; text-decoration:none;}
+a:visited,active { text-decoration:none; color:#003300;}
+a:hover {color:#000; text-decoration:underline;}
+#content p {line-height:22px;}
+h2 {font: normal 18px "Trebuchet MS", Verdana, sans-serif;
+	color: #808040;}
+#content h3 {font: bold 14px "Trebuchet MS", Verdana, sans-serif; color:#666;}
+#content .subhead {display:block; padding:3px 5px 0 8px; margin-bottom:5px;}
+#content ul { margin: 10px 0px 10px 0px; padding: 0px 0px 0px 20px; }
+#content ul li { margin: 0px; padding: 2px 0px; }
+
+
+/*Home Page Columns*/
+#col_1 {width:30%; float:left; padding:5px;}
+#col_3 {margin-left:33%; margin-right:33%; padding:5px;}
+#col_2 {width:30%; float:right; padding:5px;}
+#topcol { padding:45px 5px 20px 5px; margin-bottom15px;}
+#col_1 p, #col_2 p, #col_3 p {padding:0 8px 5px 8px;  line-height:18px; display:block;
+/*Delete this Line if you don't want fixed height*/ height:120px}/*----*/
+
+#col_1 .subhead {background:url(colsh1.jpg) no-repeat; height:22px; }
+#col_2 .subhead {background:url(colsh2.jpg) no-repeat; height:22px;}
+#col_3 .subhead {background:url(colsh3.jpg) no-repeat; height:22px;}
+#content div img {background:#efefef; border:solid 1px #cccccc; padding:3px;}
+.leftalign {float:left; margin:5px 10px 5px 0;}
+.rightalign {float:right; margin:5px 5px 5px 10px;}
+
+.linkbutton {display:block; background:url(button1.jpg) no-repeat; width:79px; height:22px;
+text-align:right; padding:5px 20px 0 5px; }
+.linkbutton:hover {background:url(button3.jpg) no-repeat;}
+#sitename {
+	display:block;
+	padding: 60px 55px 0 45px;
+	color: #808040;
+	font: bolder small-caps 22px "Trebuchet MS", Verdana, sans-serif;
+	text-align:right;
+}
+#sitename .desc {font-size:14px; color:#ccc; font-variant:normal; display:block}
+#topmenu ul {text-align:center; display:block; float:right; 
+/*change the value below to decrease or increase the width of top menu*/
+width:500px;
+/*--*/
+}
+#topmenu li {display: inline;}
+#topmenu a, #topmenu a:visited, #topmenu a:active{
+display:block; float:left; height:21px; padding: 5px 15px 0 15px; text-decoration:none; color:#000000;}
+#topmenu a:hover { background: url(topmenubhvr.jpg) repeat-x bottom;}
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active { background: url(topmenubhvr.jpg) repeat-x bottom; color:#000;}
+
+#ft_btm{
+	padding:30px 230px 20px 30px;
+	text-align: right;
+}
+
+#ft_btm ul{
+    list-style-type: none;
+}
+
+#ft_btm ul li {
+    display: inline;
+}
+
+#ft_btm a{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+#btm_cont {padding:5px 45px 30px 45px; background:url(bottomend.jpg) no-repeat center bottom; }
+.btm_box {width:110px; padding:5px; float:left; margin:8px;}
+
+#rightcontent {float:right; width:475px; padding:45px 0 0 0}
+#sidebar { margin:0px 500px 10px 0; padding-top:45px;}
+
+#content table {
+	width:90%;
+	border:1px solid #A0C6EB;
+	margin-bottom:20px;
+}
+#content th {
+	background:#D2E3F3;
+	padding:5px 15px 5px 15px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #BDDB99;
+	font-size: 16px;
+}
+#content td {
+	border-bottom:1px solid #D2E3F3;
+	padding:5px 15px 5px 15px;
+	border-right:1px solid #D2E3F3;
+}
+
+
+.textfield {
+	display: block;
+	width:50%;
+	margin:3px 3px 3px 30px;
+	padding:3px;
+	border: 1px solid #D2E3F3;
+	background: #EEF4FB;
+}
+label {	display: block; margin:3px; padding: 5px;}
+.button {
+	display: block;
+	padding:0px;
+	margin:3px;
+	border: 2px solid #C8E9F7;
+	color:#000000;
+	background: #EEF4FB;
+}
+.textfield:hover {
+	background:#FFFFCC;
+}
+.textfield:focus {background:#ffffff;}
+.hide {display:none;}
+
+#rightcontent ul, #rightcontent ol {padding:10px; margin:10px;}
+ol {list-style:decimal;}
+#rightcontent ul {list-style: square;}
+#rightcontent p {margin-bottom:20px;}
+#rightcontent li {padding:3px;}
+
+blockquote {display:block; padding:5px 5px 5px 55px; margin:5px; background:url(quote.jpg) no-repeat;}
+blockquote p {margin-bottom:0; font: normal 16px Georgia, "Times New Roman", Times, serif;}
+.extract {float:left; width:300px;}

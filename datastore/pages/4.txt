@@ -1,0 +1,15 @@
+<h1 style="text-align: center;">Welcome to Faruq's-Few-days!</h1>
+<p>We all live here only for a few days. So I have dedicated this site to those who engaged themselves to find out intellectually the purpose of our existence and to those who act intelligently according to that purpose. Why not find out more on Purpose-of-Few-Days section?</p>
+<h1 style="text-align: center;">Towards A Self-Regulated Society of Robot Workers!</h1>
+<p>As a PhD student in Cognitive Robotics Research Centre, University of Wales, Newport I have been working in this effort of developing a future society of robot workers. The main theme of this research is to make these robots self-regulated by their decentralized bottom-up interactions as found in the society of ants and other biological species. I have developed a&amp;amp;amp;amp;nbsp; manufacturing shop floor application where a society of real e-puck (mobile) robots demonstrate their self-regulated actions inspired by our generic model of division of labour.</p>
+<p><a href="http://ril.newport.ac.uk/sarker//images/LabSnapshot1-small-200911.jpeg"><img src="http://ril.newport.ac.uk/sarker//images/LabSnapshot1-small-200911.jpeg" alt="" /></a></p>
+<p>&nbsp;</p>
+<h3>Contact</h3>
+<p style="margin-left: 40px;">Md Omar Faruque Sarker <span style="font-size: small;"><br />
+Bsc. Eng., M.Eng., MIET </span><br />
+PhD Student <br />
+Cognitive Robotics Research Centre<br />
+University of Wales, Newport Allt-yr-yn Avenue, <br />
+Newport NP20 5DA <br />
+Tel: 44 (0)1633 432344<br />
+Email: writefaruq[at]gmail.com</p>

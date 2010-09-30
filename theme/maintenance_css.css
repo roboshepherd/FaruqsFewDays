@@ -1,0 +1,287 @@
+    /*///////////////////////////////////////////////////////*/
+    /* razorCMS                                              */
+    /* theme/maintenance_css.css                             */
+    /* GPLv3                                                 */
+    /* smiffy6969                                            */
+    /* www.razorcms.co.uk                                    */
+    /* www.mis-limited.com                                   */
+    /* 03/2008                                               */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  10/2009  -  Stable - Bug fix                 */
+    /* ----------------------------------------------------- */
+    /*///////////////////////////////////////////////////////*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 800px;
+    background-color: #3b3b3b;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 105%;
+    color: #444444;
+}
+
+h2{
+    margin: 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    color: #444444;
+    clear: left;
+}
+
+#content h1 {
+    color: #444444;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 130%;
+}
+
+#content h2 {
+    color: #666666;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 120%;
+}
+
+#content h3 {
+    padding-left: 3px;
+    color: #888888;
+    font-size: 110%;
+}
+
+p {
+    margin: 10px 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    color: #444444;
+    text-align: center;
+}
+
+a, a:visited, a:active {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3d8bbf;
+    text-decoration: none;
+}
+
+a:hover {
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+}
+
+.viewsitelink {
+    margin: 3px 3px 0px 0px;
+    padding: 0px;
+    height: 16px;
+    text-align: right;
+}
+
+#brace {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#pageframe {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    background-image: url(images/edge.jpg);
+    background-repeat: repeat-y;
+    background-position: top left;
+    float: left;
+}
+
+#pageframer {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+#header {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    height: 120px;
+    width: 100%;
+    background-color: #3b3b3b;
+    float: left;
+}
+
+#headermid {
+    margin: 0px;
+    padding: 0px;
+    height: 120px;
+    width: 100%;
+    background-color: #3b3b3b;
+    float: left;
+}
+
+#headerr {
+    margin: 0px;
+    padding: 0px;
+    height: 120px;
+    width: 100%;
+    background-color: #3b3b3b;
+    float: left;
+}
+
+#headerr h1{
+    margin: 0px;
+    padding: 20px 0px 0px 30px;
+    text-align: left;
+    font-size: 170%;
+    font-weight: normal;
+    color: #b6d7ee;
+}
+
+#headerr h2 {
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+    color: #999999;
+    height: 0.5em;
+    font-size: 100%;
+    text-align: left;
+    font-weight: normal;
+}
+
+#headerr h3 {
+    margin: 0px;
+    padding: 15px 0px 0px 30px;
+    color: #999999;
+    height: 0.5em;
+    font-size: 80%;
+    text-align: left;
+    font-weight: normal;
+}
+
+#midbrace {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#midbox {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    min-height:200px;
+    height:auto !important;
+    height:200px;
+    width: 100%;
+    background-color: #eeeeee;
+    float: left;
+}
+#content {
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    height: auto;
+    width: 100%;
+    border: none;
+    text-align: center;
+    float: left;
+}
+
+#content h1 img {
+    display: none;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+/* Footer css */
+/* ######################################################### */
+/* ######################################################### */
+
+#footerl {
+    margin: 0px;
+    padding: 0px;
+    height: 78px;
+    width: 100%;
+    background-color: #3b3b3b;
+    display: block;
+    float: left;
+}
+
+#footer {
+    margin: 0px;
+    padding: 0px;
+    height: 78px;
+    width: 100%;
+    background-color: #3b3b3b;
+    display: block;
+    float: left;
+}
+
+#footerr {
+    margin: 0px;
+    padding: 0px;
+    height: 78px;
+    width: 100%;
+    background-color: #3b3b3b;
+    display: block;
+    float: left;
+}
+
+#footnav {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-image: url(images/footerblade2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 78px;
+    text-align: center;
+    display: block;
+}
+
+#footerLeft {
+    padding-top: 26px;
+    width: 50%;
+    height: 50px;
+    text-align: right;
+    float: left;
+    display: block;
+}
+
+#footerRight {
+    padding-top: 26px;
+    width: 50%;
+    height: 50px;
+    text-align: left;
+    float: right;
+    display: block;
+}
+
+#footerLeft a, #footerLeft a:active, #footerLeft a:visited {
+    margin: 0px;
+    padding: 0px 36px 0px 0px;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+#footerRight a, #footerRight a:active, #footerRight a:visited {
+    margin: 0px;
+    padding: 0px 0px 0px 36px;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+#footerLeft a:hover, #footerRight a:hover{
+    color: #ff0000;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+

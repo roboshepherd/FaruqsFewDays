@@ -1,0 +1,329 @@
+    /*///////////////////////////////////////////////////////*/
+    /* razorCMS                                              */
+    /* clarity_css.css                                       */
+    /* GPLv3                                                 */
+    /* smiffy6969                                            */
+    /* www.razorcms.co.uk                                    */
+    /* www.burningfist.co.uk                                 */
+    /* 03/2008                                               */
+    /* ----------------------------------------------------- */
+    /* v0.2  -  08/2008  -  Addition of editor file no       */
+    /*                      changes to this file             */
+    /* ----------------------------------------------------- */
+    /*///////////////////////////////////////////////////////*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f8f8f8;
+    background-image: url(htmlback.jpg);
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+
+h1 {
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #555555;
+}
+
+h2 {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #555555;
+}
+
+p {
+    margin: 0px 3px 10px 3px;
+    padding: 0px;
+    color:  #777777;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+a, a:visited, a:active {
+    margin: 0px 4px 0px 4px;
+    padding: 0px;
+    font-size: 90%;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+}
+
+a:hover {
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+}
+
+#pageframe {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 770px;
+    height: auto;
+    text-align: left;
+    background-image: url(midback.jpg);
+    background-position: center top;
+    background-repeat: repeat-y;
+    position: relative;
+}
+
+#header {
+    background-image: url(headergrey.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 105px;
+}
+
+#header a.right {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    font-size: 80%;
+    color: #ffffff;
+    text-align: right;
+    float: right;	
+}
+
+#header a.left {
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    width: auto;
+    height: auto;
+    font-size: 80%;
+    color: #ffffff;
+    text-align: left;
+    float: left;
+	
+}
+
+#header a.left:hover {
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    width: auto;
+    height: auto;
+    font-size: 80%;
+    color: #ff0000;
+    text-align: left;
+    float: left;
+	
+}
+
+/* ######################################################### */
+/* Topnav css */
+/* ######################################################### */
+
+#topnav {
+    margin: 5px 20px;
+    padding: 0px 20px 0px 0px;
+    height: 1.5em;
+    width: auto;
+    text-align: right;
+}
+
+#topnav ul {
+    margin: 0px;
+    padding: 0px 0px 0px 15px;
+    height: 1.3em;
+    list-style-type: none;
+}
+
+#topnav ul li {
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+    height: 1.3em;
+    display: inline;
+}
+
+#topnav a, #topnav a:active, #topnav a:visited {
+    margin: 0px;
+    padding: 0px 5px;
+    height: 1.3em;
+    font-size: 90%;
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#topnav a:hover{
+    color: #666666;
+    font-weight: bold;
+    height: 1.3em;
+    font-size: 90%;
+}
+
+/* ######################################################### */
+
+/* ######################################################### */
+/* Navbar css */
+/* ######################################################### */
+
+#leftbar {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 140px;
+    Position: absolute;
+    top: 125px;
+    left: 50px;
+}
+
+#leftbar p {
+    margin: 10px 10px 10px 0px;
+    padding: 0px;
+}
+
+#leftbar h1, #leftbar h2 {
+    margin: 10px 10px 10px 0px;
+    padding: 0px;
+}
+
+#leftbar #leftnav ul {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    height: auto;
+    width: 140px;
+}
+
+#leftbar #leftnav ul li {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 140px;
+    list-style-type: none;
+    display: inline;
+    float: left;
+}
+
+#leftbar #leftnav ul li a {
+    margin: 1px 0px 0px 0px;
+    padding: 0px 0px 0px 1px;
+    height: auto;
+    width: 137px;
+    list-style-type: none;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    float: left;
+}
+
+#leftbar #leftnav ul li a:hover{
+    margin: 1px 0px 0px 0px;
+    padding: 0px 0px 0px 1px;
+    height: auto;
+    width: 137px;
+    color: #444444;
+    list-style-type: none;
+    background-color: #dddddd;
+    border: 1px solid #cccccc;
+    float: left;
+}
+
+/* ######################################################### */
+
+#midbox {
+    height: auto;
+}
+
+#content {
+    margin: 0px 0px 0px 200px;
+    padding: 0px;
+    height: auto;
+    width: 500px;
+}
+
+#content ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: circle;
+}
+
+#content li {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-size: 80%;
+    color: #444444;
+}
+
+#belownav {
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+}
+
+/* ######################################################### */
+/* Footnav css */
+/* ######################################################### */
+
+#footer {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 135px;
+    background-image: url(footer.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: none;
+    text-align: center;
+}
+
+#footnav {
+    margin: 0px;
+    padding: 50px 0px 0px 0px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    background-color: none;
+}
+
+#footnav ul {
+    margin: 0px;
+    width: auto;
+    height: 1.6em;
+    list-style-type: none;
+    text-align: center;
+    background-color: none;
+}
+
+#footnav ul li {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    background-color: none;
+}
+
+#footnav a, #footnav a:active, #footnav a:visited {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    margin-top: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    color: #ff0000;
+    font-size: 70%;
+    text-align: center;
+    background-color: none;
+}
+
+#footnav a:hover{
+    color: #666666;
+}
+
+/* ######################################################### */

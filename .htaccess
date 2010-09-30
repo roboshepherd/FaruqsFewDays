@@ -1,0 +1,52 @@
+# razorCMS default access file - smiffy6969 - www.razorcms.co.uk - www.mis-limited.com
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+<Files index>
+ForceType application/x-httpd-php  
+</Files>
+
+##### Optional items - activate as necessary ###############
+# These may be in your server setup file                   #
+############################################################
+
+DirectoryIndex index.html index.htm index.php index default.html default.htm default.php
+# Options +FollowSymLinks
+
+############################################################
+# End of optional lines                                    #
+############################################################
+
+############################################################
+# Switch on rewrite engine - please ensure you have        #
+# mod_rewrite engine enabled on server                     #
+############################################################
+
+RewriteEngine On
+
+############################################################
+# If having issues with sef url you could try uncommenting #
+# this line below to ensure your basepath points correctly #
+############################################################
+
+# RewriteBase /
+
+##### RE-MAP YOUR SEF URL TO THE RAZOR URL #################
+# Try this default setting below for sef url, if this      #
+# fails to work, try adding your server path to your       #
+# installation before the index part. i.e. /razor/ giving  #
+# you /razor/index.php/$1 where razor is the path you      #
+# installed razor to. if this fails consult the forum for  #
+# help                                                     #
+##################### end ##################################
+
+RewriteRule ^([0-9A-Za-z-]+).htm  index.php/$1

@@ -1,0 +1,716 @@
+    /*///////////////////////////////////////////////////////*/
+    /* razorCMS                                              */
+    /* theme/default_css.css                                 */
+    /* GPLv3                                                 */
+    /* smiffy6969                                            */
+    /* www.razorcms.co.uk                                    */
+    /* www.mis-limited.com                                   */
+    /* 03/2008                                               */
+    /* ----------------------------------------------------- */
+    /* V0.1  -  03/2008  -  Version 0.1 first release        */
+    /*                                                       */
+    /*                      Theme created by smiffy6969      */
+    /*                      Copywrited to burningfist.co.uk  */
+    /* ----------------------------------------------------- */
+    /* V0.2  -  06/2008  -  This file contains changes for   */
+    /*                      up issue to V0.2RC               */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  11/2008  -  BETA1 Bug fix and new features   */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  12/2008  -  RC Bug fix and code walk         */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  02/2009  -  RC2 Bug fix, code walk and some  */
+    /*                      movement of functions.           */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  06/2009  -  ALPHA Security, Bug fix and new  */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  07/2009  -  BETA Bug fix and new             */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  08/2009  -  BETA2 Bug fix and new            */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  09/2009  -  RC Bug fix                       */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  10/2009  -  Stable - Bug fix                 */
+    /* ----------------------------------------------------- */
+    /*///////////////////////////////////////////////////////*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/back.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #b6d7ee;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 105%;
+    color: #444444;
+}
+
+h2 {
+    margin: 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    color: #444444;
+    clear: left;
+}
+
+#content h1 {
+    color: #444444;
+    margin: 0px 0px 1px 0px;
+    padding: 0px;
+    text-align: left;
+    border-bottom: 1px solid #aaaaaa;
+    font-size: 130%;
+}
+
+#content h2 {
+    color: #666666;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 120%;
+}
+
+#content h3 {
+    padding-left: 3px;
+    color: #888888;
+    font-size: 110%;
+}
+
+p, td {
+    margin: 10px 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    color: #444444;
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+    color: #444444;
+    text-decoration: none;
+}
+
+a, a:visited, a:active {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3d8bbf;
+    text-decoration: none;
+}
+
+a:hover {
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+}
+
+a img {
+    border: none;
+}
+
+#brace {
+    width: 950px;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#pageframe {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 950px;
+    background-image: url(images/edge.jpg);
+    background-repeat: repeat-y;
+    background-position: top left;
+    float: left;
+}
+
+#pageframer {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 950px;
+    background-image: url(images/edge.jpg);
+    background-repeat: repeat-y;
+    background-position: top right;
+    float: left;
+}
+
+#header {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    height: 160px;
+    width: 950px;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    float: left;
+}
+
+#headermid {
+    margin: 0px;
+    padding: 0px;
+    height: 160px;
+    width: 950px;
+    background-image: url(images/headermid.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    float: left;
+}
+
+#headerr {
+    margin: 0px;
+    padding: 0px;
+    height: 160px;
+    width: 950px;
+    background-image: url(images/headerr.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    float: left;
+}
+
+#headerr h1{
+    margin: 0px;
+    padding: 65px 0px 0px 30px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 170%;
+    font-weight: normal;
+    color: #b6d7ee;
+}
+
+#headerr h2{
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+    color: #999999;
+    height: 0.5em;
+    font-size: 100%;
+    text-align: left;
+    font-weight: normal;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+/* Topnav css */
+/* ######################################################### */
+/* ######################################################### */
+
+#topnav {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    width: 944px;
+    /*background-color:  #000000;*/
+    background-image: url(images/navbar.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    text-align: left;
+    float: left;
+}
+
+#topnav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: auto;
+}
+
+#topnav a {
+    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    width: auto;
+    height: auto;
+    color: #60bfff;
+    text-decoration:none;
+    font-size: 85%;
+}
+
+#topnav a:hover {
+    color: #94d4ff;
+    background-color:  #333333;
+    background-image: none;
+}
+
+#topnav a.active {
+    color: #ff0000;
+}
+
+#topnav a.active:hover {
+    color: #ff0000;
+    background-color:  #333333;
+    background-image: none;
+}
+
+/* setup li */
+#topnav li {
+    float: left;
+    width: auto;
+    border-right: 1px solid #000000;
+    height: auto;
+}
+
+/* setup li hover */
+#topnav li:hover, #topnav li.hoverfix {
+    background-color:  #333333;
+}
+
+/* hide the 1st list sub menu container */
+#topnav li ul{
+    display:none;
+}
+
+/* Display 1st sub menu container*/
+#topnav li:hover ul, #topnav li.hoverfix ul {
+    width: 130px;
+    display:block;
+    position: absolute;
+    left: auto;
+    z-index: 2;
+    background-color:  #333333;
+}
+
+/* alter 1st sub menu li width */
+#topnav li:hover ul li, #topnav li.hoverfix ul li{
+    width: 130px;
+}
+
+/* Display 1st sub menu li hover*/
+#topnav li:hover ul li:hover, #topnav li:hover ul li:hover a:hover, #topnav li.hoverfix ul li.hoverfix, #topnav li.hoverfix ul li.hoverfix a:hover{
+    background-color:  #444444;
+    position: relative;
+}
+
+/* hide the 2nd sub menu container */
+#topnav li:hover ul li ul, #topnav li.hoverfix ul li ul{
+    display:none;
+}
+
+/* Display 2nd sub menu container*/
+#topnav li:hover ul li:hover ul, #topnav li.hoverfix ul li.hoverfix ul{
+    width: auto;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    z-index: 2;
+    background-color:  #444444;
+}
+
+/* hide the 3rd sub menu container */
+#topnav li:hover ul li:hover ul li ul, #topnav li.hoverfix ul li.hoverfix ul li ul{
+    display:none;
+}
+
+/* Display 3rd sub menu container*/
+#topnav li:hover ul li:hover ul li:hover ul, #topnav li.hoverfix ul li.hoverfix ul li.hoverfix ul{
+    width: auto;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    z-index: 2;
+    background-color:  #444444;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+/* ######################################################### */
+/* ######################################################### */
+
+#midbrace {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 1px;
+}
+
+#midbox {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    min-height:200px;
+    height:auto !important;
+    height:200px;
+    width: 948px;
+    background-color: #ffffff;
+    float: left;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+/* Navbar css */
+/* ######################################################### */
+/* ######################################################### */
+
+#leftbar {
+    margin: 1px 0px 0px 0px;
+    padding: 0px 5px 0px 10px;
+    width: 175px;
+    font-size: 85%;
+    text-align:left;
+    float:left;
+}
+
+#leftbar p {
+    margin: 10px 10px 10px 0px;
+    padding: 0px;
+}
+
+#leftbar h1, #leftbar h2 {
+    margin: 1px 0px 1px 0px;
+    padding: 4px;
+    color: #888888;
+    width: 160px;
+}
+
+#leftbar #leftnav ul {
+    margin: 0px;
+    padding: 4px;
+    list-style-type: none;
+    background-color: #eeeeee;
+    border: 1px solid #bbbbbb;
+}
+
+#leftbar #leftnav ul li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#leftbar #leftnav ul li a {
+    margin: 0px;
+    padding: 0px;
+    color: #1791e4;
+    text-decoration: none;
+}
+
+#leftbar #leftnav ul li a:hover{
+    margin: 0px;
+    padding: 0px;
+    color: #60bfff;
+}
+
+#leftbar #leftnav ul li a.active, #leftbar #leftnav ul li a.active:hover{
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+}
+
+#leftbar #leftnav ul li ul {
+    padding-left: 10px;
+    margin: 0px;
+    list-style-type: none;
+    border: none;
+}
+
+#leftbar #leftnav ul li ul li ul{
+    padding-left: 10px;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+
+
+#content {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    height: auto;
+    width: 750px;
+    border: none;
+    text-align: center;
+    float: left;
+}
+
+div.contentwh {
+    margin: 0px 0px 0px 0px;
+    padding: 1px 0px 1px 0px;
+    height: auto;
+    width: auto;
+    text-align: left;
+}
+
+div.contentinstall {
+    margin: 1px 0px 1px 0px;
+    padding: 2px;
+    height: auto;
+    width: auto;
+    text-align: left;
+}
+
+div.contentinstallred {
+    margin: 4px 0px 4px 0px;
+    padding: 2px;
+    height: auto;
+    width: auto;
+    background-color: #ffcdcd;
+    border: 1px solid #ff0000;
+    text-align: left;
+}
+
+#content ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: circle;
+}
+
+#content li {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    color: #444444;
+}
+
+form {
+    width: auto;
+}
+
+#button {
+    border: 1px solid #ff7200;
+    background-color: #ffc18e;
+    width: auto;
+    text-align: center;
+}
+
+table {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    background-color: #eeeeee;
+}
+
+th {
+    background-color: #dddddd;
+    color: #888888;
+    border-bottom: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+}
+
+td {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    color: #444444;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+
+.tableTitle {
+    background-color: #dddddd;
+}
+
+.tableFooter {
+    background-color: #dddddd;
+    height: 10px;
+}
+
+.tableCenter {
+    text-align: center;
+}
+
+.ten {
+    width: 10%;
+}
+
+.auto {
+    width: auto;
+}
+
+.twenty {
+    width: 20%;
+}
+
+.twentyFive {
+    width: 25%
+}
+
+#UCLoginBox, #UCUserBox {
+    margin: 5px 0px 0px 0px;
+    padding: 2px;
+    border: 1px solid #999999;
+    background-color: #ffffff;
+}
+
+#UCUserBox h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#UCLoginForm, #UCLogOutForm {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#UCLoginForm input.user {
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+}
+
+#UCLoginForm input.button {
+    margin: 0px;
+    padding: 0px;
+}
+
+#UCLoginForm p.userSmall {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+/* Footnav css */
+/* ######################################################### */
+/* ######################################################### */
+
+
+#copyw {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    height: auto;
+    width: 948px;
+    background-color: #ffffff;
+    float: left;
+}
+
+#copynav {
+    display: block;
+}
+
+#copynav ul {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+    display: inline;
+}
+
+#copynav li {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    display: inline;
+}
+
+#copynav a, #footnav a:active, #footnav a:visited, #copyw a, #footnav a:active, #footnav a:visited {
+    margin: 0px;
+    padding: 0px 6px;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+#copynav a:hover, #copyw a:hover{
+    color: #ff0000;
+}
+
+#copyw p {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    color: #444444;
+    clear: left;
+}
+
+#footerl {
+    margin: 0px;
+    padding: 0px;
+    height: 135px;
+    width: 100%;
+    background-image: url(images/footerleft.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    display: block;
+    float: left;
+}
+
+#footer {
+    margin: 0px;
+    padding: 0px;
+    height: 135px;
+    width: 100%;
+    background-image: url(images/footermid.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #b6d7ee;
+    display: block;
+    float: left;
+}
+
+#footerr {
+    margin: 0px;
+    padding: 0px;
+    height: 135px;
+    width: 100%;
+    background-image: url(images/footerright.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    display: block;
+    float: left;
+}
+
+#footnav {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-image: url(images/footerblade.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 135px;
+    text-align: center;
+    display: block;
+}
+
+#footerLeft {
+    padding-top: 26px;
+    width: 50%;
+    height: 70px;
+    text-align: right;
+    float: left;
+    display: block;
+}
+
+#footerRight {
+    padding-top: 26px;
+    width: 50%;
+    height: 70px;
+    text-align: left;
+    float: right;
+    display: block;
+}
+
+#footerLeft a, #footerLeft a:active, #footerLeft a:visited {
+    margin: 0px;
+    padding: 0px 36px 0px 0px;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+#footerRight a, #footerRight a:active, #footerRight a:visited {
+    margin: 0px;
+    padding: 0px 0px 0px 36px;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+#footerLeft a:hover, #footerRight a:hover{
+    color: #ff0000;
+}
+
+/* ######################################################### */
+/* ######################################################### */
+

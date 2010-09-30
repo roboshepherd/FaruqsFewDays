@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<bladepack>
+    <details>
+        <name>Public Theme - RS Garden v0.2</name>
+        <version>v1.0</version>
+        <class>theme</class>
+        <author>ported by smiffy6969</author>
+        <description>Public facing theme, RS Garden by ramblingsoul (www.ramblingsoul.com) ported to razorCMS</description>
+    </details>
+    <archive>
+        <archive_file>theme_RSgarden.zip</archive_file>
+        <xml_file>theme_RSgarden.xml</xml_file>
+        <bladepack_file>theme_RSgarden.php</bladepack_file>
+        <bladepack_dir>theme_RSgarden</bladepack_dir>
+    </archive>
+    <note>
+        <p>This theme blade pack will add the ability to use a different theme on the
+        front end of your website. To use this theme on the front end of your website, 
+        complete the following steps.</p>
+        <p>Activate this theme in the theme section of the blade manager, once complete
+        go to the settings manager and set which theme slot you wish to allocate this theme
+        to. You may allocate this theme to any slot.</p>
+        <p>If set to default, this theme will be used on your entire site, if set to one
+        of the 3 additional slots, when creating or editing a page, you may select for
+        that page alone which slot you wish it to use for it's theme.</p>
+        <p>You may see what slot is allocated to each page when managing content by looking
+        for D (theme-default), 1 (theme-one), 2 (theme-two), 3 (theme-three) in the column
+        to the left of the page name.</p>
+    </note>
+</bladepack>

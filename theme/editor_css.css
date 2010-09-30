@@ -1,0 +1,151 @@
+    /*///////////////////////////////////////////////////////*/
+    /* razorCMS                                              */
+    /* theme/editor_css.css                                  */
+    /* GPLv3                                                 */
+    /* smiffy6969                                            */
+    /* www.razorcms.co.uk                                    */
+    /* www.mis-limited.com                                   */
+    /* 03/2008                                               */
+    /* ----------------------------------------------------- */
+    /* V0.2  -  08/2008  -  First release for v0.2 RC2       */
+    /*                      Modified editor css style sheet  */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  11/2008  -  BETA1 Bug fix and new features   */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  12/2008  -  RC Bug fix and code walk         */
+    /* ----------------------------------------------------- */
+    /* V0.3  -  02/2009  -  RC2 Bug fix, code walk and some  */
+    /*                      movement of functions.           */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  06/2009  -  ALPHA Security, Bug fix and new  */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  07/2009  -  BETA Bug fix and new             */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  08/2009  -  BETA2 Bug fix and new            */
+    /*                      functionality                    */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  09/2009  -  RC Bug fix                       */
+    /* ----------------------------------------------------- */
+    /* V1.0  -  10/2009  -  Stable - Bug fix                 */
+    /* ----------------------------------------------------- */
+    /*///////////////////////////////////////////////////////*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-width: 760px;
+    max-width: 1400px;
+    background-color: #ffffff;
+    font-family: Tahoma, Arial, Helvetica;
+    text-align: Left;
+    float: left;
+}
+
+h1 {
+    color: #444444;
+    margin: 0px 0px 1px 0px;
+    padding: 0px;
+    text-align: left;
+    border-bottom: 1px solid #aaaaaa;
+    font-size: 130%;
+}
+
+h2 {
+    color: #666666;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 120%;
+}
+
+h3, h4, h5 {
+    padding-left: 3px;
+    color: #888888;
+    font-size: 110%;
+}
+
+
+p {
+    margin: 10px 10px;
+    padding: 0px;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 80%;
+    color: #444444;
+}
+
+a, a:visited, a:active {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, Arial, Helvetica;
+    color: #3d8bbf;
+    text-decoration: none;
+}
+
+a:hover {
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+}
+
+img {
+    position: relative;
+}
+
+ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: circle;
+}
+
+li {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 80%;
+    color: #444444;
+}
+
+div.contentwh {
+    margin: 0px 0px 8px 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    text-align: left;
+}
+
+blockquote {
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	color:#222222;
+	padding:5px;
+	margin:8px;
+}
+
+blockquote p {
+	margin:0;
+}
+
+ol {
+        margin: 0px 0px 0px 20px;
+        padding: 0px;
+        list-style-type: circle;
+}
+
+code {
+	display:block;
+	padding:5px;
+	margin:10px 15px 10px 15px;
+	background: #ffffff;
+	white-space: pre;
+	border: 1px solid #444444;
+	font: normal 12px "Courier New", Courier, monospace;
+	color:#444444;
+}
+
+strong {
+	font-weight:bold;
+}

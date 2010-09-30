@@ -1,0 +1,35 @@
+<h2>PhD Year-I: Summary of Completed Works</h2>
+<ul>
+    <li><strong> Multi-robot localization and tracking system: </strong> Hardware setup completed, software development is underway</li>
+    <li><strong> Multi-robot control system: </strong> E-puck robots are ready to put real experimental codes</li>
+    <li><strong> Multi-robot communication system: </strong> tested the bluetooth  RS232 serial line communication library wxCTB with e-puck robots</li>
+</ul>
+<p>Download the PDF summary report from <a href="http://ril.newport.ac.uk/sarker/mydata/report/PhD_Year1_Research_SarkerMOF.pdf"> here. </a></p>
+<h2>Robot Shepherding Stories...</h2>
+<ul>
+    <li><strong> Episode-I March 2009: </strong> <a href="http://ril.newport.ac.uk/sarker/index.php?pid=15">Tracking small wild E-pucks </a></li>
+</ul>
+<p><a href="http://ril.newport.ac.uk/sarker/images/RGB-Markers-200903-1.jpg"><img src="http://ril.newport.ac.uk/sarker/images/RGB-Markers-200903-1.jpg" alt="" /></a></p>
+<h2>Research on self-regulated robot society</h2>
+<p>I am researching towards developing a self-regulated robot society similar to the ant colony, human society or any other biological society. In a collaborative EPSRC project, we are trying to find a set of generic rules that seed the emergence of division of labour in those societies. Inspired by the observation of division of labour in an ant colony, we have proposed a model of division of labour called Attractive Field Model (AFM). In our lab we are implementing this model into a society of small e-puck robots.</p>
+<h3>Areas of my research</h3>
+<p>My current research is primarily interconnected with:</p>
+<ul>
+    <li><strong>Multi-robot systems </strong> (e.g., Swarm Robotics)</li>
+    <li><strong>Distributed AI </strong>(e.g., Decentralized multi-agent systems)</li>
+    <li><strong>Computer Vision </strong>(Tracking robots in real-time) and</li>
+    <li><strong>Communication Systems </strong>(Implementing different  communication strategies for robots).</li>
+</ul>
+<!--
+<h3>Areas of my work</h3>
+<p>My current research focuses on three major aspects of this implementation:
+</p>
+<ol>
+    <li> Putting Attractive Field Model on e-puck robot's controller,
+    </li>
+    <li>Tracking and logging these robot's movement in real-time and
+    </li>
+    <li>Implementing different  communication strategies for these robots.
+    </li>
+</ol>
+-->
