@@ -9,7 +9,7 @@
 <ul>
     <li><strong> Episode-I March 2009: </strong> <a href="http://ril.newport.ac.uk/sarker/index.php?pid=15">Tracking small wild E-pucks </a></li>
 </ul>
-<p><a href="http://ril.newport.ac.uk/sarker/images/RGB-Markers-200903-1.jpg"><img src="http://ril.newport.ac.uk/sarker/images/RGB-Markers-200903-1.jpg" alt="" /></a></p>
+<p><a href="http://ril.newport.ac.uk/sarker/images/RGB-Markers-200903-1.jpg"><img alt="" src="http://ril.newport.ac.uk/sarker/images/RGB-Markers-200903-1.jpg" /></a></p>
 <h2>Research on self-regulated robot society</h2>
 <p>I am researching towards developing a self-regulated robot society similar to the ant colony, human society or any other biological society. In a collaborative EPSRC project, we are trying to find a set of generic rules that seed the emergence of division of labour in those societies. Inspired by the observation of division of labour in an ant colony, we have proposed a model of division of labour called Attractive Field Model (AFM). In our lab we are implementing this model into a society of small e-puck robots.</p>
 <h3>Areas of my research</h3>
