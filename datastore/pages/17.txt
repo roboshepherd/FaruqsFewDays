@@ -1,0 +1,2 @@
+<h1>Contact<br /></h1>
+<p><span style="font-size: small;">Md Omar Faruque Sarker <br />&nbsp;&nbsp; <span style="font-size: x-small;">Bsc. Eng., M.Eng., MIET </span><br /> PhD Student <br /> Cognitive Robotics Research Centre<br /> University of Wales, Newport Allt-yr-yn Avenue, <br /> Newport NP20 5DA <br /> Tel: 44 (0)1633 432344<br /> Email: writefaruq[at]gmail.com</span></p>

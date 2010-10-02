@@ -7,26 +7,26 @@
 </ul>
 <h1>Conference Papers</h1>
 <ul>
-<li>Md Omar Faruque Sarker and Dahl, Torbjorn S. <strong>Flexible Communication in Multi-robotic Control System Using HEAD: Hybrid Event-driven Architecture on D-Bus. </strong>In the Proc. of the UKACC International Conference on Control (CONTROL 2010),&nbsp; pp 926-931, Coventry, UK, September 7-10, 2010.<br />[PDF]</li>
+<li>Md Omar Faruque Sarker and Dahl, Torbjorn S. <strong>Flexible Communication in Multi-robotic Control System Using HEAD: Hybrid Event-driven Architecture on D-Bus. </strong>In the Proc. of the UKACC International Conference on Control (CONTROL 2010),&nbsp; pp 926-931, Coventry, UK, September 7-10, 2010. [<a href="publications/2010/control2010.pdf">PDF</a>]</li>
 </ul>
 <ul>
-<li>Md Omar Faruque Sarker and Torbjorn S. Dahl. <strong>Communication Strategies for Self-regulated Division of Labour in Robot Society.</strong> In the Proceedings of the 2009 European Conference on Complex Systems (ECCS 2009), pp157-158, Warwick, UK,&nbsp; September 21-25, 2009.<br />[PDF]</li>
-<li>Md Omar Faruque Sarker Park, Jung Ming, Kim ChangHwan and You. Bam Jae. <strong>A Knowledge-Based Service Approach for Human-Centered Robots.</strong> In the Proc. of the 16th IEEE International Symposium on Robot and Human interactive Communication (RO-MAN 2007), pages 582-587, 2007.<br />[PDF]</li>
+<li>Md Omar Faruque Sarker and Torbjorn S. Dahl. <strong>Communication Strategies for Self-regulated Division of Labour in Robot Society.</strong> In the Proceedings of the 2009 European Conference on Complex Systems (ECCS 2009), pp157-158, Warwick, UK,&nbsp; September 21-25, 2009. [<a href="publications/2009/Sarker-eccs09.pdf" target="_blank">PDF</a>]</li>
+<li>Md Omar Faruque Sarker Park, Jung Ming, Kim ChangHwan and You. Bam Jae. <strong>A Knowledge-Based Service Approach for Human-Centered Robots.</strong> In the Proc. of the 16th IEEE International Symposium on Robot and Human interactive Communication (RO-MAN 2007), pages 582-587, 2007. [<a href="publications/2007/ROMAN2007-SarkerMOF-p1044.pdf" target="_blank">PDF</a>]</li>
 </ul>
 <ul>
-<li>Md Omar Faruque Sarker,&nbsp; Kim ChangHwan Baek S. and You. Bam Jae. <strong>An IEEE-1394 Based Real-time Robot Control System for Efficient Controlling of Humanoids</strong>. In the Proc. of the 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2006), pages 1416-1421, Beijing China, 2006.<br />[PDF]</li>
+<li>Md Omar Faruque Sarker,&nbsp; Kim ChangHwan Baek S. and You. Bam Jae. <strong>An IEEE-1394 Based Real-time Robot Control System for Efficient Controlling of Humanoids</strong>. In the Proc. of the 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2006), pages 1416-1421, Beijing China, 2006. [<a href="publications/2006/IROS2006_232_SarkerMOF.pdf" target="_blank">PDF</a>]</li>
 </ul>
 <ul>
-<li>Md Omar Faruque Sarker,&nbsp; Kim ChanHwan Cho J-S. and You. Bam Jae. <strong>Development of a Network-based Real-Time Robot Control System over IEEE 1394: Using Open Source Software Platform. </strong>In the Proc. of the 2006 IEEE International Conference on Mechatronics, ICM 2006, pages 563-568, Budapest, Hungary, 2006.<br />[PDF]</li>
+<li>Md Omar Faruque Sarker,&nbsp; Kim ChanHwan Cho J-S. and You. Bam Jae. <strong>Development of a Network-based Real-Time Robot Control System over IEEE 1394: Using Open Source Software Platform. </strong>In the Proc. of the 2006 IEEE International Conference on Mechatronics, ICM 2006, pages 563-568, Budapest, Hungary, 2006. [<a href="publications/2006/icm2006_BPA_030.pdf" target="_blank">PDF</a>]</li>
 </ul>
 <h1>Theses/Reports</h1>
 <ul>
-<li>Md Omar Faruque Sarker. <strong>Self-regulated multi-robot task allocation.</strong> PhD Thesis, University of Wales, Newport, UK (pending).<br />[PDF]</li>
-<li>Md Omar Faruque Sarker. <strong>Emergent Self-regulation in Social Robotic Systems.</strong> PhD Transfer Report, University of Wales, Newport, UK, November 2008. <br />[PDF]</li>
-<li>Md Omar Faruque Sarker. <strong>A Knowledge-Based Service Approach for Human-Centered Robots.</strong> Masters Thesis, University of Science and Technology, South Korea, August 2007.<br />[PDF]</li>
+<li>Md Omar Faruque Sarker. <strong>Self-regulated multi-robot task allocation.</strong> PhD Thesis, University of Wales, Newport, UK (pending). </li>
+<li>Md Omar Faruque Sarker. <strong>Emergent Self-regulation in Social Robotic Systems.</strong> PhD Transfer Report, University of Wales, Newport, UK, November 2008. [<a href="publications/2008/20270089_PhD_transfer_report.pdf" target="_blank">PDF</a>]</li>
+<li>Md Omar Faruque Sarker. <strong>A Knowledge-Based Service Approach for Human-Centered Robots.</strong> Masters Thesis, University of Science and Technology, South Korea, August 2007. [<a href="publications/2007/MasterThesis_SarkerMOF.pdf" target="_blank">PDF</a>]</li>
 </ul>
 <h1>Submitted/Accepted for Publication</h1>
 <ul>
-<li>Md Omar Faruque Sarker and Torbjorn S. Dahl. <strong>Bio-inspired Communication for Self-regulated Multi-robot Sytems.</strong> Accepted for publication in Multi-Robot Systems, Trends and Development, ISBN 978-953-7619-X-X (pending).<br />[PDF]</li>
-<li>Md Omar Faruque Sarker and Torbjorn S. Dahl. <strong>Self-regulated Multi-robot Task Allocation: A Taxonomy and Comparison of Centralized and Local Communication Strategies.</strong> In submission to Elsevier's Robotics and Autonomous System (pending).<br />[PDF]</li>
+<li>Md Omar Faruque Sarker and Torbjorn S. Dahl. <strong>Bio-inspired Communication for Self-regulated Multi-robot Sytems.</strong> Accepted for publication in Multi-Robot Systems, Trends and Development, ISBN 978-953-7619-X-X (pending).</li>
+<li>Md Omar Faruque Sarker and Torbjorn S. Dahl. <strong>Self-regulated Multi-robot Task Allocation: A Taxonomy and Comparison of Centralized and Local Communication Strategies.</strong> In submission to Elsevier's Robotics and Autonomous System (pending).</li>
 </ul>

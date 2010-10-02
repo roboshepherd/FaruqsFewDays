@@ -11,7 +11,7 @@ body {
 	background: #CCCCCC;
 	color: #333; */
 	background: #CCCCCC; 	
-	font: 75%/1.5em Verdana, Tahoma, arial, sans-serif;
+	font: 72%/1.5em Verdana, Tahoma, arial, sans-serif;
 	color: #555; 
 	text-align: justify;
 	margin: 0;
@@ -47,7 +47,7 @@ a:hover {
 	margin: 0 auto;
 	text-align: left;
 	border: auto; solid 1px #E8E8E8; 
-	background: url(./content.jpg) repeat-y center top; /*#fff */	
+	background: url(./content.jpg) repeat-y center top; #fff */	
 }
 #wrap2 {
 	width: 780px; /*990 */
@@ -202,10 +202,11 @@ form.search input.button {
 #sidebar {
 	width: 22%;
 	float: right;
-	padding: 1px; /*5px 5px 5px 5px;*/
+	padding: 1px; 5px 5px 5px 5px;
 	border-left: solid 1px #CCCCCC;
 	background: #99CCFF
-	/*border-bottom: dotted 1px #CCCCCC; */
+	border-bottom: dotted 1px #CCCCCC; 
+	font-size: 80%; 
 }
 #sidebar ul.menu {
 	list-style: none;

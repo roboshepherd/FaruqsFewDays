@@ -47,7 +47,7 @@ a:hover {
 	margin: 0 auto;
 	text-align: left;
 	border: auto; solid 1px #E8E8E8; 
-	background: url(./content.jpg) repeat-y center top; /*#fff */	
+	background: url(./content.jpg) repeat-y center top; #fff */	
 }
 #wrap2 {
 	width: 780px; /*990 */
@@ -205,7 +205,8 @@ form.search input.button {
 	padding: 1px; 5px 5px 5px 5px;
 	border-left: solid 1px #CCCCCC;
 	background: #99CCFF
-	/*border-bottom: dotted 1px #CCCCCC; */
+	border-bottom: dotted 1px #CCCCCC; 
+	font-size: 80%; 
 }
 #sidebar ul.menu {
 	list-style: none;

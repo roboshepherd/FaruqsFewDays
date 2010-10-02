@@ -1,0 +1,12 @@
+<h1>Google-Summer-of-Code-2010 with Tahoe LAFS:</h1>
+<ul>
+<li>
+<h2><a href="http://socghop.appspot.com/gsoc/program/list_projects/google/gsoc2010" target="_blank">GSoC 2010 Site</a> (Student ID: faruq)<br /></h2>
+</li>
+<li>
+<h2><a href="http://code.google.com/p/google-summer-of-code-2010-tahoe-lafs/downloads/detail?name=MOFaruque_Sarker.tar.gz&amp;can=2&amp;q=#makechanges" target="_blank">Source Code</a></h2>
+</li>
+<li>
+<h2>Expericence: to be added soon.<br /></h2>
+</li>
+</ul>

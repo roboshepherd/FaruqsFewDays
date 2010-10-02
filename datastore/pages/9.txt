@@ -1,1 +1,21 @@
-<p>Some code</p>
+<h1>Recent Projects</h1>
+<ul>
+<li>
+<h2>Google Summer of Code 2010 <br /></h2>
+</li>
+<li>
+<h2>EpuckCentralizedClient (to be added)<br /></h2>
+</li>
+<li>
+<h2>EpuckDistributedClient (to be added)</h2>
+</li>
+</ul>
+<h1>Experiences</h1>
+<ul>
+<li>
+<h2><a href="index.php?slab=opencv-experience">My Experience of&nbsp; Capturing Video in Linux with OpenCV Library</a></h2>
+</li>
+<li>
+<h2><a href="index.php?slab=interfacing-prosilica-gige-camera-with-opencv"><strong>Interfacing Prosilica GigE Camera with OpenCV</strong></a></h2>
+</li>
+</ul>

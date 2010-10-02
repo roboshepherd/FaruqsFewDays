@@ -1,0 +1,19 @@
+<h1>My Experience of&nbsp; Capturing Video in Linux with OpenCV Library</h1>
+<h4>Background</h4>
+<p>For our robot society experiments, we need to track about 30 mini E-puck  robots. We could not afford an expensive commercial vision system for tracking  our robots.&nbsp; OpenCV library has already implemented plenty of related  algorithms, good documentations and worldwide users.</p>
+<h4>System Setup</h4>
+<ul>
+<li>Initial Hardware Set-up<br /> Sony Handycam HCR camera with Video4Linux (V4L) Ubuntu x86 Linux 7.10 in  	Dell T5400 PC</li>
+<li>Final Hardware Set-up<br /> Prosilica GigE GE4900C 16 Mega pixel camera with Prosilica SDK and&nbsp;  	Ubuntu Linux x64 8.10</li>
+</ul>
+<h4>Video capturing via Sony Handy-cam, BTTV TVcard and Video4Linux Driver</h4>
+<p>Getting a correct V4L video driver for a specific grabber or TV card was a  nightmare. I tried USBVision, Hauppauge PVR USB2 cards but failed in my Ubuntu  box. Finally I got an old BTTV TV card that worked with V4L/ Xawtv program. I  don't recommend this route due to hardware/software incompatibility issue.</p>
+<p>Sony Handycam HCR camera has a IEEE1394 interface. But it does not compatible  with IEEE DC specification and I couldn't use this with OpenCV.</p>
+<h4>Video capturing via Prosilica GigE camera and its SDK</h4>
+<p>I have tested both Prosilica GC2450C and GE4900C and found Prosilica SDK well  for my hardware setup. However one may need to modify the header files according  to his set-up.</p>
+<p>Here is a sample code example that I used to grab images from Prosilica  camera.</p>
+<h4>Conclusion</h4>
+<ul>
+<li>For serious vision experiments, one should find out serious camera  	vendors who has already developed their driver for the target platform.  	Relying on experimental or outdated V4L drivers is not recommended for  	serious jobs.</li>
+<li>I have OpenCV library stable although some algorithms will require a  	huge amount of memory in proportion to the frame size of an image.</li>
+</ul>

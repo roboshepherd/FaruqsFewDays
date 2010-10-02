@@ -1,15 +1,27 @@
 <h1 style="text-align: center;">Welcome to Faruq's-Few-days!</h1>
-<p>We all live here only for a few days. So I have dedicated this site to those who engaged themselves to find out intellectually the purpose of our existence and to those who act intelligently according to that purpose. Why not find out more on Purpose-of-Few-Days section?</p>
+<h2 style="font-style: normal; font-weight: normal; line-height: 0.45cm; widows: 2; orphans: 2;">We all live here only for a few days. But Why?</h2>
+<p style="font-style: normal; font-weight: normal; line-height: 0.45cm; widows: 2; orphans: 2;" align="LEFT">Allah mentions to us in the Holy Quran,<span style="color: #555555;"><span style="font-family: Verdana,Tahoma,arial,sans-serif;"><span style="font-size: x-small;"><br /></span></span></span><span style="color: #3366ff;"><strong>"And to Allah belongs the dominion of the heavens and the earth, and Allah is over all things competent. Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding-Who remember Allah while standing or sitting or [lying] on their sides and give thought to the creation of the heavens and the earth, [saying], "Our Lord, You did not create this aimlessly; exalted are You [above such a thing]; then protect us from the punishment of the Fire." </strong>Surah 3: Ayahs 189-191 </span><span style="color: #555555;"><span style="font-family: Verdana,Tahoma,arial,sans-serif;"><span style="font-size: x-small;"><br /> </span></span></span></p>
+<p style="font-style: normal; font-weight: normal; line-height: 0.45cm; widows: 2; orphans: 2;" align="LEFT"><span style="color: #555555;"><span style="font-family: Verdana,Tahoma,arial,sans-serif;"><span style="font-size: x-small;">So I have dedicated this site to those who engaged themselves to find out intellectually the purpose of our existence and to those who act intelligently according to that purpose. </span></span></span></p>
 <h1 style="text-align: center;">Towards A Self-Regulated Society of Robot Workers!</h1>
-<p>As a PhD student in Cognitive Robotics Research Centre, University of Wales, Newport I have been working in this effort of developing a future society of robot workers. The main theme of this research is to make these robots self-regulated by their decentralized bottom-up interactions as found in the society of ants and other biological species. I have developed a&amp;amp;amp;amp;nbsp; manufacturing shop floor application where a society of real e-puck (mobile) robots demonstrate their self-regulated actions inspired by our generic model of division of labour.</p>
-<p><a href="http://ril.newport.ac.uk/sarker//images/LabSnapshot1-small-200911.jpeg"><img src="http://ril.newport.ac.uk/sarker//images/LabSnapshot1-small-200911.jpeg" alt="" /></a></p>
-<p>&nbsp;</p>
+<p>As a PhD candidate in Cognitive Robotics Research Centre, University of Wales, Newport I have been working in this effort of developing a future society of robot workers. The main theme of this research is to make these robots self-regulated by their decentralized bottom-up interactions as found in the society of ants and other biological species. I have developed a manufacturing shop floor application where a society of real e-puck (mobile) robots demonstrate their self-regulated actions inspired by our generic model of division of labour. Follow these YouTube clips:</p>
+<p style="font-style: normal; font-weight: normal; line-height: 0.45cm; widows: 2; orphans: 2;" align="LEFT"><strong>Initial set-up: where an e-puck robot moves from one task to another...</strong></p>
+<p style="text-align: center;"><a href="http://ril.newport.ac.uk/sarker//images/LabSnapshot1-small-200911.jpeg"> 
+<object width="425" height="350" data="http://www.youtube.com/v/zjw44hyFWSI" type="application/x-shockwave-flash">
+<param name="src" value="http://www.youtube.com/v/zjw44hyFWSI" />
+</object>
+<br /></a></p>
+<p style="font-style: normal; font-weight: normal; line-height: 0.45cm; widows: 2; orphans: 2;" align="LEFT"><strong>Demo experiment set-up phase I:</strong></p>
+<p style="text-align: center;">
+<object width="425" height="350" data="http://www.youtube.com/v/oP3XZOjGfCU" type="application/x-shockwave-flash">
+<param name="src" value="http://www.youtube.com/v/oP3XZOjGfCU" />
+</object>
+</p>
+<p><strong>Summarized experiments done in May 2010:</strong></p>
+<p style="text-align: center;">
+<object width="425" height="350" data="http://www.youtube.com/v/-CU5mpBphwQ" type="application/x-shockwave-flash">
+<param name="src" value="http://www.youtube.com/v/-CU5mpBphwQ" />
+</object>
+</p>
+<h3><br /></h3>
 <h3>Contact</h3>
-<p style="margin-left: 40px;">Md Omar Faruque Sarker <span style="font-size: small;"><br />
-Bsc. Eng., M.Eng., MIET </span><br />
-PhD Student <br />
-Cognitive Robotics Research Centre<br />
-University of Wales, Newport Allt-yr-yn Avenue, <br />
-Newport NP20 5DA <br />
-Tel: 44 (0)1633 432344<br />
-Email: writefaruq[at]gmail.com</p>
+<p style="margin-left: 40px;">Md Omar Faruque Sarker <br /> Bsc. Eng., M.Eng., MIET <br /> PhD Student <br /> Cognitive Robotics Research Centre<br /> University of Wales, Newport Allt-yr-yn Avenue, <br /> Newport NP20 5DA <br /> Tel: 44 (0)1633 432344<br /> Email: writefaruq[at]gmail.com</p>

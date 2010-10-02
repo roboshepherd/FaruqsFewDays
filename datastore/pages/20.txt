@@ -1,0 +1,17 @@
+<h1>Capturing frames from Prosilica GigE camera using OpenCV library in Ubuntu Linux</h1>
+<h3>Preparation</h3>
+<ul>
+<li>Compile the Prosilica PvAPI library following the accompanying README  	file. Particularly modify the ARCH file and set your target architecture  	etc.</li>
+<li>After connecting the GigE camera to your machine set up IP and run  	ListCameras script provided by the SDK. If a camera is found after 3-4  	tries,&nbsp; proceed to next step. </li>
+<li>Test the sample image of your camera by SampleViewer program of the SDK  	and tune any parameters such as ExposureMode (set to Auto), Image ROI etc.  	Prosilica website has explained all parameters.</li>
+<li>Make sure OpenCV is installed properly using a command like "pkg-config opencv --libs"</li>
+</ul>
+<h3>Compilation</h3>
+<p>Use this command to compile this source:  <a href="http://ril.newport.ac.uk/sarker/mydata/code-example/OpenCVCaptureProsilicaGigECamera.cpp"> OpenCVCaptureProsilicaGigECamera.cpp</a></p>
+<p>&nbsp;g   OpenCVCaptureProsilicaGigECamera.cpp -o capture -I/usr/local/include/opencv  -I/usr/include/opencv -L/usr/local/lib -L/usr/lib -I/usr/include -lm -lcv -lhighgui  -lcvaux -lPvAPI</p>
+<p>Run the ./capture file and see if you can grab the image.</p>
+<h3>Notes</h3>
+<p>Some errors as found below may occur due the absence of some definitions in  your source file:</p>
+<p>/usr/include/PvApi.h:368:2: error: #error Define specific data types for your  platform.<br /> /usr/include/PvApi.h:259: error: expected unqualified-id before numeric constant<br /> /usr/include/PvApi.h:368:2: error: #error Define specific data types for your  platform.</p>
+<p>So please add these lines in your code</p>
+<p>#define PVDECL<br /> #define _LINUX<br /> #define _x86 // For 32 bit OS, default<br /> //#define _x64 // For 64 bit OS<br /> // The following header file must be included after the above statements<br /> #include "PvApi.h"</p>
