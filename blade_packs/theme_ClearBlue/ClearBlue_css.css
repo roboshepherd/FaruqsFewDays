@@ -8,11 +8,11 @@
 
 body {
 /*	font: 75%/150% Verdana, Arial, Helvetica, sans-serif;
-	color: #000;
-	background: url(body.gif); */
 	background: #CCCCCC;
-	font: 80%/1.5em Verdana, Tahoma, arial, sans-serif;
-	color: #333; 
+	color: #333; */
+	background: #CCCCCC; 	
+	font: 75%/1.5em Verdana, Tahoma, arial, sans-serif;
+	color: #555; 
 	text-align: justify;
 	margin: 0;
 }
@@ -38,11 +38,16 @@ a:hover {
 /* Wrap */
 
 #wrap {
-	width: 1024px; /* orig: 1000 */
+	width: 820px;
+	background: url(content.jpg) repeat-y center top;
+	margin: 0 auto;
+	text-align: left;	
+
+	/*width: 1000px; orig: 1000 
 	margin: 0 auto;
 	text-align: left;
-	border: solid 1px #E8E8E8;
-	background: #fff /*url(./content.jpg) repeat-y center top; #fff */	
+	border: auto; solid 1px #E8E8E8; 
+	background: url(./content.jpg) repeat-y center top; /*#fff */	
 }
 #wrap2 {
 	width: 780px; /*990 */
@@ -146,15 +151,15 @@ form.search input.button {
 /* Content */
 
 #content {
-	width: 600px; /* 630 */
+	width: 75%; /* 630 */
 	padding: 20px 5px 5px 5px;
 }
 
 #content-wrap {
 	clear: both;
-	width: 950px;
-	padding: 5px; 
-	margin: 0px auto;
+	/*width: 950px; */
+	padding: 15px; 
+	margin: 3px auto;
 }
 
 #content h1 {
@@ -195,10 +200,11 @@ form.search input.button {
 /* Sidebar */
 
 #sidebar {
-	width: 330px;
+	width: 22%;
 	float: right;
-	padding: 5px 5px 5px 5px;
+	padding: 1px; 5px 5px 5px 5px;
 	border-left: solid 1px #CCCCCC;
+	background: #99CCFF
 	/*border-bottom: dotted 1px #CCCCCC; */
 }
 #sidebar ul.menu {
