@@ -1,13 +1,13 @@
 <h1>Recent Projects</h1>
 <ul>
 <li>
-<h2>Google Summer of Code 2010 <br /></h2>
+<h2>Google Summer of Code 2010: <a href="http://code.google.com/p/google-summer-of-code-2010-tahoe-lafs/downloads/detail?name=MOFaruque_Sarker.tar.gz&amp;can=2&amp;q=#makechanges" target="_blank">source-code</a><br /></h2>
 </li>
 <li>
-<h2>EpuckCentralizedClient (to be added)<br /></h2>
+<h2>EpuckCentralizedClient (to be added) <a href="http://github.com/roboshepherd/EpuckCentralizedClient" target="_blank">source-code</a><br /></h2>
 </li>
 <li>
-<h2>EpuckDistributedClient (to be added)</h2>
+<h2>EpuckDistributedClient (to be added) <a href="http://github.com/roboshepherd/EpuckDistributedClient" target="_blank">source-code</a><br /></h2>
 </li>
 </ul>
 <h1>Experiences</h1>
