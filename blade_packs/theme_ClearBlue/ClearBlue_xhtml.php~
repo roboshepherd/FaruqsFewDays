@@ -70,7 +70,7 @@
                 <?php loadLinks('footer'); ?>
                 <?php loadSettings('copyright'); ?>
                 <?php BsocketB('public-xhtml-footer'); ?>
-                | <a href="http://ril.newport.ac.uk/sarker">Home</a>|
+                <!--| <a href="http://ril.newport.ac.uk/sarker">Home</a>| -->
   </div>
   <!-- End Wrap2 -->
 </div>

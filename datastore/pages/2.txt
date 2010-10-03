@@ -1,2 +1,52 @@
-<h3>CV</h3>
-<p><strong> Download my full CV in PDF format from <a href="/datastore/media/file/CV_SarkerMOF.pdf"><span style="text-decoration: underline;">here</span></a>.</strong></p>
+<h1>Download PDF<br /></h1>
+<p><strong> Download my full CV in PDF format from <a href="../datastore/media/file/CV_SarkerMOF.pdf"><span style="text-decoration: underline;">here</span></a>.</strong></p>
+<h1><strong>CONTACT</strong></h1>
+<p style="padding-left: 30px;"><span style="color: #ff6600;"><strong>Md Omar Faruque Sarker</strong></span><strong><br /></strong>PhD Candidate<br />Cognitive Robotics Research Centre<br />University of Wales, Newport,<br />Newport Business School, Allt-yr-yn Campus<br />Newport, NP20 5DA, United Kingdom<br />Tel : +44 (0)1633 432344<br />Email : Mdomarfaruque.Sarker[at]newport.ac.uk&#65279;<br />Web : http://ril.newport.ac.uk/sarker</p>
+<h1><strong>EDUCATION</strong></h1>
+<ul>
+<li><strong><span style="color: #ff6600;"><em>Ph.D. Candidate Technology (Robotics)</em>, 2010 </span><br /></strong>University of Wales, Newport, UK<br />Thesis: Self-regulated Multi-robot Task Allocation</li>
+<li><span style="color: #ff6600;"><em><strong>M.Eng. HCI &amp; Robotics</strong></em><strong>, 2007</strong></span><br />Korea Institute of Science &amp; Technology,<br />University of Science &amp; Technology, South Korea<br />Thesis: A Knowledge-Based Service Approach for Human-Centered Robots</li>
+<li><span style="color: #ff6600;"><strong><em>B.Sc. Mechanical Engineering,</em> 2005</strong></span><br />Bangladesh University of Engineering and Technology</li>
+</ul>
+<h1>EMPLOYMENT</h1>
+<ul>
+<li><span style="color: #ff6600;"><strong>10/2007 - present PhD Student/ Research Assistant</strong></span><br />Cognitive Robotics Research Centre, University of Wales, Newport, UK.</li>
+</ul>
+<ul>
+<li><span style="color: #ff6600;"><strong>08/2005 - 07/2007 Postgraduate Research Assistant</strong></span><br />Center for Cognitive Robotics, Korea Institute of Science &amp; Technology, S. Korea</li>
+<li><strong><span style="color: #ff6600;">03/2005 - 07/2005 Lecturer and Coordinator (Industrial Training Program)</span></strong><br />Dept. of CSE, International Islamic University of Chittagong, Dhaka campus, Bangladesh</li>
+<li><strong><span style="color: #ff6600;">10/2004 - 05/2005 Network Engineer</span></strong><br />Institute of Info &amp; Communication Tech., Bangladesh University of Engineering &amp; Technology</li>
+<li><strong><span style="color: #ff6600;">05/2004 - 09/2004 Systems Engineer (Part-Time)</span></strong><br />Ektoo Limited, Dhaka, Bangladesh.</li>
+<li><span style="color: #ff6600;"><strong>11/2002 - 04/2004 Associate Editor (Part-Time)</strong></span><br />Technology Today Ltd., Dhaka, Bangladesh.</li>
+<li><strong><span style="color: #ff6600;">04/2002&ndash;06/2004 Tutor (Part-time)</span></strong><br />Institute of Info &amp; Communication Tech., Bangladesh University of Engineering &amp; Technology</li>
+</ul>
+<h1>AWARDS</h1>
+<ul>
+<li><span style="color: #ff6600;">University of Wales, Newport, UK Research Support Grant</span> 10/2010 - Present </li>
+<li><span style="color: #ff6600;">EPSRC (UK) PhD Studentship (Grant ref. EP/E061982/1)</span> 10/2007 - 09/2010 </li>
+<li><span style="color: #ff6600;">Google Summer of Code Open-source Software Development Sponsorship for Tahoe-LAFS</span> 05/2010 - 08/2010 </li>
+<li><span style="color: #ff6600;">Google Summer of Code Open-source Software Development Sponsorship for Bluez</span> 05/2009 - 08/2009 </li>
+<li><span style="color: #ff6600;">Korea Institute of Science &amp; Technology - Int&rsquo;l R &amp; D Academy Postgraduate Scholarship</span> 09/2005 - 08/207 </li>
+<li><span style="color: #ff6600;">Bangladesh University of Engineering &amp; Technology Technical Scholarship</span> 07/2000 - 06/2004</li>
+<li><span style="color: #ff6600;">District Commissioner&rsquo;s Gold Medal Honour for the Best Student of the Year</span> 1997&nbsp;&nbsp;</li>
+<li><span style="color: #ff6600;">Prime Minister&rsquo;s Award for Merit List Position in SSC Examination</span> 1996 </li>
+<li><span style="color: #ff6600;">International Friendship Award, Scouts Invitation Program, Boy Scouts of Nippon, Japan</span> 1995 </li>
+</ul>
+<h1><strong>RESEARCH INTERESTS</strong></h1>
+<ul>
+<li><strong><span style="color: #ff6600;">Networking &amp; communication systems:</span> </strong>Scalable distributed processing for complex networks and clouds.</li>
+<li><span style="color: #ff6600;"><strong>AI and Robotics: </strong></span>Bio-inspired decentralized control of multi-robot systems and application in search and rescue.</li>
+<li><strong><span style="color: #ff6600;">Computer vision and image processing:</span> </strong>Multi-agent tracking and real-time image processing.</li>
+</ul>
+<h1><strong>TEACHING INTERESTS</strong></h1>
+<p><strong>Computer Networks, Information Security, Network Programming, Artificial Intelligence, Mobile Robotics, Intelligent Control, Applied Computer Vision and Multi-agent Systems.<br /></strong></p>
+<h1><strong>TECHNICAL SKILLS/TOOLS</strong></h1>
+<ul>
+<li><strong><span style="color: #ff6600;">Proficient Programming Languages:</span> </strong>C/C++, Python, Unix shell scripts, Prolog, LaTeX.</li>
+</ul>
+<ul>
+<li><strong><span style="color: #ff6600;">Tools:</span></strong> Git and Darcs revision control system, OpenCV computer vision library, SwisTrack multi-robot tracker, Epuck,<br />Myro and Player/Stage robot control frameworks, NetLogo multi-agent simulator, Xenomai Linux based real-time OS,<br />popular Unix/Linux network servers (e.g. Apache, MySQL), Linux Netfilter IPTables security package, CORAL, XSB ,<br />FuzzyCLIPS deductive databases and logic programming knowledge-based systems.</li>
+<li><strong><span style="color: #ff6600;">Familiar:</span> </strong>MATLAB, Tcl/Tk, HTML/XML, Java, PHP, Bluez Bluetooth stack, Tahoe-LAFS distributed P2P file system, CMS like Drupal, Joomla etc.</li>
+</ul>
+<h1><strong>PUBLICATIONS</strong></h1>
+<p><strong>See <a href="index.php?slab=publication">here</a><br /></strong></p>

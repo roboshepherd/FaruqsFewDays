@@ -53,7 +53,7 @@
 -->        
       <div id="left_sidebar">
         <div class="widgetspace">
-		<h2> Recent pages </h2>	
+		<h2> Recent pages/links </h2>	
                     <?php loadLinks('sidebar'); ?>
 		    <?php BsocketB('public-xhtml-leftnav'); ?> <!-- -->
           </div>
