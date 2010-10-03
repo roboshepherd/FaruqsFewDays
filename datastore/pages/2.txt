@@ -10,15 +10,15 @@
 </ul>
 <h1>EMPLOYMENT</h1>
 <ul>
-<li><span style="color: #ff6600;"><strong>10/2007 - present PhD Student/ Research Assistant</strong></span><br />Cognitive Robotics Research Centre, University of Wales, Newport, UK.</li>
+<li><span style="color: #ff6600;"><strong>10/2007 - present <em>PhD Student</em></strong></span><br />Cognitive Robotics Research Centre, University of Wales, Newport, UK.</li>
 </ul>
 <ul>
-<li><span style="color: #ff6600;"><strong>08/2005 - 07/2007 Postgraduate Research Assistant</strong></span><br />Center for Cognitive Robotics, Korea Institute of Science &amp; Technology, S. Korea</li>
-<li><strong><span style="color: #ff6600;">03/2005 - 07/2005 Lecturer and Coordinator (Industrial Training Program)</span></strong><br />Dept. of CSE, International Islamic University of Chittagong, Dhaka campus, Bangladesh</li>
-<li><strong><span style="color: #ff6600;">10/2004 - 05/2005 Network Engineer</span></strong><br />Institute of Info &amp; Communication Tech., Bangladesh University of Engineering &amp; Technology</li>
-<li><strong><span style="color: #ff6600;">05/2004 - 09/2004 Systems Engineer (Part-Time)</span></strong><br />Ektoo Limited, Dhaka, Bangladesh.</li>
-<li><span style="color: #ff6600;"><strong>11/2002 - 04/2004 Associate Editor (Part-Time)</strong></span><br />Technology Today Ltd., Dhaka, Bangladesh.</li>
-<li><strong><span style="color: #ff6600;">04/2002&ndash;06/2004 Tutor (Part-time)</span></strong><br />Institute of Info &amp; Communication Tech., Bangladesh University of Engineering &amp; Technology</li>
+<li><span style="color: #ff6600;"><strong>08/2005 - 07/2007 <em>Postgraduate Research Assistant</em></strong></span><br />Center for Cognitive Robotics, Korea Institute of Science &amp; Technology, S. Korea</li>
+<li><strong><span style="color: #ff6600;">03/2005 - 07/2005 <em>Lecturer and Coordinator (Industrial Training Program)</em></span></strong><br />Dept. of CSE, International Islamic University of Chittagong, Dhaka campus, Bangladesh</li>
+<li><strong><span style="color: #ff6600;">10/2004 - 05/2005 <em>Network Engineer</em></span></strong><br />Institute of Info &amp; Communication Tech., Bangladesh University of Engineering &amp; Technology</li>
+<li><strong><span style="color: #ff6600;">05/2004 - 09/2004 <em>Systems Engineer (Part-Time)</em></span></strong><br />Ektoo Limited, Dhaka, Bangladesh.</li>
+<li><span style="color: #ff6600;"><strong>11/2002 - 04/2004 <em>Associate Editor (Part-Time)</em></strong></span><br />Technology Today Ltd., Dhaka, Bangladesh.</li>
+<li><strong><span style="color: #ff6600;">04/2002&ndash;06/2004 <em>Tutor (Part-time)</em></span></strong><br />Institute of Info &amp; Communication Tech., Bangladesh University of Engineering &amp; Technology</li>
 </ul>
 <h1>AWARDS</h1>
 <ul>
