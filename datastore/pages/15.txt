@@ -1,12 +1,43 @@
 <h1>Google-Summer-of-Code-2010 with Tahoe LAFS:</h1>
 <ul>
 <li>
-<h2><a href="http://socghop.appspot.com/gsoc/program/list_projects/google/gsoc2010" target="_blank">GSoC 2010 Site</a> (Student ID: faruq)<br /></h2>
+<h2><a href="http://socghop.appspot.com/gsoc/program/list_projects/google/gsoc2010" target="_blank">GSoC 2010 Site</a> (Student ID: faruq)</h2>
 </li>
 <li>
-<h2><a href="http://code.google.com/p/google-summer-of-code-2010-tahoe-lafs/downloads/detail?name=MOFaruque_Sarker.tar.gz&amp;can=2&amp;q=#makechanges" target="_blank">Source Code</a></h2>
+<h2>Development history logged: as user "writefaruq" &nbsp;at Tahoe-LAFS <a href="http://tahoe-lafs.org/trac/tahoe-lafs/ticket/68">ticket #68</a></h2>
+<h2><a href="http://tahoe-lafs.org/trac/tahoe-lafs/ticket/68"></a>Download:&nbsp;<a href="http://code.google.com/p/google-summer-of-code-2010-tahoe-lafs/downloads/detail?name=MOFaruque_Sarker.tar.gz&amp;can=2&amp;q=#makechanges" target="_blank">Source Code</a></h2>
+<div>
+<table border="0">
+<tbody>
+<tr>
+<td class="formfieldlabel">Student Name:</td>
+<td class="formfieldvalue">M O Faruque Sarker</td>
+</tr>
+<tr>
+<td class="formfieldlabel">Organization:</td>
+<td class="formfieldvalue">Tahoe-LAFS</td>
+</tr>
+<tr>
+<td class="formfieldlabel">Organization Home Page:</td>
+<td class="formfieldvalue"><a rel="nofollow" href="http://tahoe-lafs.org/" target="_blank">http://tahoe-lafs.org/</a></td>
+</tr>
+<tr>
+<td class="formfieldlabel">Mentor Name:</td>
+<td class="formfieldvalue">Zooko Wilcox-O'Hearn</td>
+</tr>
+<tr>
+<td class="formfieldlabel">Title:</td>
+<td class="formfieldvalue">A Publish/Subscribe Style Decentralized Introduction</td>
+</tr>
+<tr>
+<td class="formfieldlabel">Abstract:</td>
+<td class="formfieldvalue">Decentralized introduction can effectively distribute the task of introducing new nodes and thus Tahoe-LAFS can get rid of the problem of single-point of load and single-point failure (Issue #68). Here we propose to implement a publish/subscribe style algorithm that can enable multiple introducers to share the load of introduction tasks in a decentralized way. Scalability analysis, verification through simulation/experimentation and performance testing is also included here.</td>
+</tr>
+</tbody>
+</table>
+</div>
 </li>
 <li>
-<h2>Expericence: to be added soon.<br /></h2>
+<h2>Expericence: to be added soon.</h2>
 </li>
 </ul>
